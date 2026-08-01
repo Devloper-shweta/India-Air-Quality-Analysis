@@ -1,0 +1,1247 @@
+2026-07-21 20:55:50 | INFO     | extract_measurements | Total Sensors : 9458
+2026-07-21 20:55:50 | INFO     | extract_measurements | Sensor 1/20 | ID = 23
+2026-07-21 20:55:52 | INFO     | extract_measurements | Sensor 2/20 | ID = 24
+2026-07-21 20:55:53 | INFO     | extract_measurements | Sensor 3/20 | ID = 26
+2026-07-21 20:55:54 | INFO     | extract_measurements | Sensor 4/20 | ID = 27
+2026-07-21 20:55:55 | INFO     | extract_measurements | Sensor 5/20 | ID = 28
+2026-07-21 20:55:56 | INFO     | extract_measurements | Sensor 6/20 | ID = 29
+2026-07-21 20:55:58 | INFO     | extract_measurements | Sensor 7/20 | ID = 30
+2026-07-21 20:55:59 | INFO     | extract_measurements | Sensor 8/20 | ID = 31
+2026-07-21 20:56:00 | INFO     | extract_measurements | Sensor 9/20 | ID = 32
+2026-07-21 20:56:01 | INFO     | extract_measurements | Sensor 10/20 | ID = 33
+2026-07-21 20:56:03 | INFO     | extract_measurements | Sensor 11/20 | ID = 34
+2026-07-21 20:56:04 | INFO     | extract_measurements | Sensor 12/20 | ID = 35
+2026-07-21 20:56:07 | INFO     | extract_measurements | Sensor 35 | Page 1 | Records = 1000
+2026-07-21 20:56:11 | INFO     | extract_measurements | Sensor 35 | Page 2 | Records = 1000
+2026-07-21 20:56:16 | INFO     | extract_measurements | Sensor 35 | Page 3 | Records = 1000
+2026-07-21 20:56:21 | INFO     | extract_measurements | Sensor 35 | Page 4 | Records = 1000
+2026-07-21 20:56:27 | INFO     | extract_measurements | Sensor 35 | Page 5 | Records = 1000
+2026-07-21 20:56:32 | INFO     | extract_measurements | Sensor 35 | Page 6 | Records = 1000
+2026-07-21 20:56:40 | INFO     | extract_measurements | Sensor 35 | Page 7 | Records = 1000
+2026-07-21 20:56:46 | INFO     | extract_measurements | Sensor 35 | Page 8 | Records = 1000
+2026-07-21 20:56:54 | INFO     | extract_measurements | Sensor 35 | Page 9 | Records = 1000
+2026-07-21 20:57:01 | INFO     | extract_measurements | Sensor 35 | Page 10 | Records = 1000
+2026-07-21 20:57:08 | INFO     | extract_measurements | Sensor 35 | Page 11 | Records = 1000
+2026-07-21 20:57:16 | INFO     | extract_measurements | Sensor 35 | Page 12 | Records = 1000
+2026-07-21 20:57:24 | INFO     | extract_measurements | Sensor 35 | Page 13 | Records = 1000
+2026-07-21 20:57:33 | INFO     | extract_measurements | Sensor 35 | Page 14 | Records = 1000
+2026-07-21 20:57:43 | INFO     | extract_measurements | Sensor 35 | Page 15 | Records = 1000
+2026-07-21 20:57:55 | INFO     | extract_measurements | Sensor 35 | Page 16 | Records = 1000
+2026-07-21 20:58:05 | INFO     | extract_measurements | Sensor 35 | Page 17 | Records = 1000
+2026-07-21 20:58:13 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/35/measurements (attempt 1/10): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-21 20:58:13 | INFO     | extract_measurements | Retrying in 3s...
+2026-07-21 20:58:23 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/35/measurements (attempt 2/10): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-21 20:58:23 | INFO     | extract_measurements | Retrying in 9s...
+2026-07-21 20:58:39 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/35/measurements (attempt 3/10): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-21 20:58:39 | INFO     | extract_measurements | Retrying in 27s...
+2026-07-21 20:59:13 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/35/measurements (attempt 4/10): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-21 20:59:13 | INFO     | extract_measurements | Retrying in 81s...
+2026-07-21 21:07:53 | INFO     | extract_measurements | Total Sensors : 9458
+2026-07-21 21:07:53 | INFO     | extract_measurements | Sensor 1/20 | ID = 23
+2026-07-21 21:07:54 | INFO     | extract_measurements | Sensor 2/20 | ID = 24
+2026-07-21 21:07:55 | INFO     | extract_measurements | Sensor 3/20 | ID = 26
+2026-07-21 21:07:58 | INFO     | extract_measurements | Sensor 4/20 | ID = 27
+2026-07-21 21:07:59 | INFO     | extract_measurements | Sensor 5/20 | ID = 28
+2026-07-21 21:08:00 | INFO     | extract_measurements | Sensor 6/20 | ID = 29
+2026-07-21 21:08:02 | INFO     | extract_measurements | Sensor 7/20 | ID = 30
+2026-07-21 21:08:03 | INFO     | extract_measurements | Sensor 8/20 | ID = 31
+2026-07-21 21:08:04 | INFO     | extract_measurements | Sensor 9/20 | ID = 32
+2026-07-21 21:08:06 | INFO     | extract_measurements | Sensor 10/20 | ID = 33
+2026-07-21 21:08:08 | INFO     | extract_measurements | Sensor 11/20 | ID = 34
+2026-07-21 21:08:09 | INFO     | extract_measurements | Sensor 12/20 | ID = 35
+2026-07-21 21:08:12 | INFO     | extract_measurements | Sensor 35 | Page 1 | Records = 1000
+2026-07-21 21:08:17 | INFO     | extract_measurements | Sensor 35 | Page 2 | Records = 1000
+2026-07-21 21:08:21 | INFO     | extract_measurements | Sensor 35 | Page 3 | Records = 1000
+2026-07-21 21:08:27 | INFO     | extract_measurements | Sensor 35 | Page 4 | Records = 1000
+2026-07-21 21:08:33 | INFO     | extract_measurements | Sensor 35 | Page 5 | Records = 1000
+2026-07-21 21:08:38 | INFO     | extract_measurements | Sensor 35 | Page 6 | Records = 1000
+2026-07-21 21:08:43 | INFO     | extract_measurements | Sensor 35 | Page 7 | Records = 1000
+2026-07-21 21:08:52 | INFO     | extract_measurements | Sensor 35 | Page 8 | Records = 1000
+2026-07-21 21:08:59 | INFO     | extract_measurements | Sensor 35 | Page 9 | Records = 1000
+2026-07-21 21:09:06 | INFO     | extract_measurements | Sensor 35 | Page 10 | Records = 1000
+2026-07-21 21:09:15 | INFO     | extract_measurements | Sensor 35 | Page 11 | Records = 1000
+2026-07-21 21:09:23 | INFO     | extract_measurements | Sensor 35 | Page 12 | Records = 1000
+2026-07-21 21:09:32 | INFO     | extract_measurements | Sensor 35 | Page 13 | Records = 1000
+2026-07-21 21:09:41 | INFO     | extract_measurements | Sensor 35 | Page 14 | Records = 1000
+2026-07-21 21:09:43 | INFO     | extract_measurements | Sensor 35 | Page 15 | Records = 1000
+2026-07-21 21:09:55 | INFO     | extract_measurements | Sensor 35 | Page 16 | Records = 1000
+2026-07-21 21:10:03 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/35/measurements (attempt 1/10): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-22 13:36:33 | INFO     | extract_measurements | Total Sensors : 9458
+2026-07-22 13:36:33 | INFO     | extract_measurements | Sensor 1/20 | ID = 23
+2026-07-22 13:36:35 | INFO     | extract_measurements | Sensor 2/20 | ID = 24
+2026-07-22 13:36:36 | INFO     | extract_measurements | Sensor 3/20 | ID = 26
+2026-07-22 13:36:38 | INFO     | extract_measurements | Sensor 4/20 | ID = 27
+2026-07-22 13:36:40 | INFO     | extract_measurements | Sensor 5/20 | ID = 28
+2026-07-22 13:36:41 | INFO     | extract_measurements | Sensor 6/20 | ID = 29
+2026-07-22 13:36:42 | INFO     | extract_measurements | Sensor 7/20 | ID = 30
+2026-07-22 13:36:43 | INFO     | extract_measurements | Sensor 8/20 | ID = 31
+2026-07-22 13:36:44 | INFO     | extract_measurements | Sensor 9/20 | ID = 32
+2026-07-22 13:36:46 | INFO     | extract_measurements | Sensor 10/20 | ID = 33
+2026-07-22 13:36:48 | INFO     | extract_measurements | Sensor 11/20 | ID = 34
+2026-07-22 13:36:49 | INFO     | extract_measurements | Sensor 12/20 | ID = 35
+2026-07-22 13:36:52 | INFO     | extract_measurements | Sensor 35 | Page 1 | Records = 1000
+2026-07-22 13:36:56 | INFO     | extract_measurements | Sensor 35 | Page 2 | Records = 1000
+2026-07-22 13:36:59 | INFO     | extract_measurements | Sensor 35 | Page 3 | Records = 1000
+2026-07-22 13:37:04 | INFO     | extract_measurements | Sensor 35 | Page 4 | Records = 1000
+2026-07-22 13:37:09 | INFO     | extract_measurements | Sensor 35 | Page 5 | Records = 1000
+2026-07-22 13:37:13 | INFO     | extract_measurements | Sensor 35 | Page 6 | Records = 1000
+2026-07-22 13:37:18 | INFO     | extract_measurements | Sensor 35 | Page 7 | Records = 1000
+2026-07-22 13:37:23 | INFO     | extract_measurements | Sensor 35 | Page 8 | Records = 1000
+2026-07-22 13:37:29 | INFO     | extract_measurements | Sensor 35 | Page 9 | Records = 1000
+2026-07-22 13:37:37 | INFO     | extract_measurements | Sensor 35 | Page 10 | Records = 1000
+2026-07-22 13:37:37 | WARNING  | extract_measurements | Sensor 35 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:37:37 | INFO     | extract_measurements | Sensor 13/20 | ID = 36
+2026-07-22 13:37:41 | INFO     | extract_measurements | Sensor 36 | Page 1 | Records = 1000
+2026-07-22 13:37:45 | INFO     | extract_measurements | Sensor 36 | Page 2 | Records = 1000
+2026-07-22 13:37:50 | INFO     | extract_measurements | Sensor 36 | Page 3 | Records = 1000
+2026-07-22 13:37:55 | INFO     | extract_measurements | Sensor 36 | Page 4 | Records = 1000
+2026-07-22 13:38:01 | INFO     | extract_measurements | Sensor 36 | Page 5 | Records = 1000
+2026-07-22 13:38:06 | INFO     | extract_measurements | Sensor 36 | Page 6 | Records = 1000
+2026-07-22 13:38:11 | INFO     | extract_measurements | Sensor 36 | Page 7 | Records = 1000
+2026-07-22 13:38:17 | INFO     | extract_measurements | Sensor 36 | Page 8 | Records = 1000
+2026-07-22 13:38:24 | INFO     | extract_measurements | Sensor 36 | Page 9 | Records = 1000
+2026-07-22 13:38:30 | INFO     | extract_measurements | Sensor 36 | Page 10 | Records = 1000
+2026-07-22 13:38:30 | WARNING  | extract_measurements | Sensor 36 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:38:30 | INFO     | extract_measurements | Sensor 14/20 | ID = 71
+2026-07-22 13:38:32 | INFO     | extract_measurements | Sensor 71 | Page 1 | Records = 1000
+2026-07-22 13:38:37 | INFO     | extract_measurements | Sensor 71 | Page 2 | Records = 1000
+2026-07-22 13:38:42 | INFO     | extract_measurements | Sensor 71 | Page 3 | Records = 1000
+2026-07-22 13:38:50 | INFO     | extract_measurements | Sensor 71 | Page 4 | Records = 1000
+2026-07-22 13:38:58 | INFO     | extract_measurements | Sensor 71 | Page 5 | Records = 1000
+2026-07-22 13:39:05 | INFO     | extract_measurements | Sensor 71 | Page 6 | Records = 1000
+2026-07-22 13:39:15 | INFO     | extract_measurements | Sensor 71 | Page 7 | Records = 1000
+2026-07-22 13:39:23 | INFO     | extract_measurements | Sensor 71 | Page 8 | Records = 1000
+2026-07-22 13:39:38 | INFO     | extract_measurements | Sensor 71 | Page 9 | Records = 1000
+2026-07-22 13:39:54 | INFO     | extract_measurements | Sensor 71 | Page 10 | Records = 1000
+2026-07-22 13:39:54 | WARNING  | extract_measurements | Sensor 71 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:39:54 | INFO     | extract_measurements | Sensor 15/20 | ID = 168
+2026-07-22 13:43:09 | INFO     | extract_measurements | Sensor 16/20 | ID = 169
+2026-07-22 13:43:10 | INFO     | extract_measurements | Sensor 17/20 | ID = 380
+2026-07-22 13:43:14 | INFO     | extract_measurements | Sensor 380 | Page 1 | Records = 1000
+2026-07-22 13:43:19 | INFO     | extract_measurements | Sensor 380 | Page 2 | Records = 1000
+2026-07-22 13:43:23 | INFO     | extract_measurements | Sensor 380 | Page 3 | Records = 1000
+2026-07-22 13:43:29 | INFO     | extract_measurements | Sensor 380 | Page 4 | Records = 1000
+2026-07-22 13:43:33 | INFO     | extract_measurements | Sensor 380 | Page 5 | Records = 1000
+2026-07-22 13:43:39 | INFO     | extract_measurements | Sensor 380 | Page 6 | Records = 1000
+2026-07-22 13:43:46 | INFO     | extract_measurements | Sensor 380 | Page 7 | Records = 1000
+2026-07-22 13:43:53 | INFO     | extract_measurements | Sensor 380 | Page 8 | Records = 1000
+2026-07-22 13:43:59 | INFO     | extract_measurements | Sensor 380 | Page 9 | Records = 1000
+2026-07-22 13:44:06 | INFO     | extract_measurements | Sensor 380 | Page 10 | Records = 1000
+2026-07-22 13:44:06 | WARNING  | extract_measurements | Sensor 380 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:44:06 | INFO     | extract_measurements | Sensor 18/20 | ID = 381
+2026-07-22 13:44:09 | INFO     | extract_measurements | Sensor 381 | Page 1 | Records = 1000
+2026-07-22 13:44:14 | INFO     | extract_measurements | Sensor 381 | Page 2 | Records = 1000
+2026-07-22 13:44:17 | INFO     | extract_measurements | Sensor 381 | Page 3 | Records = 1000
+2026-07-22 13:44:22 | INFO     | extract_measurements | Sensor 381 | Page 4 | Records = 1000
+2026-07-22 13:44:27 | INFO     | extract_measurements | Sensor 381 | Page 5 | Records = 1000
+2026-07-22 13:44:33 | INFO     | extract_measurements | Sensor 381 | Page 6 | Records = 1000
+2026-07-22 13:44:40 | INFO     | extract_measurements | Sensor 381 | Page 7 | Records = 1000
+2026-07-22 13:44:46 | INFO     | extract_measurements | Sensor 381 | Page 8 | Records = 1000
+2026-07-22 13:44:54 | INFO     | extract_measurements | Sensor 381 | Page 9 | Records = 1000
+2026-07-22 13:45:01 | INFO     | extract_measurements | Sensor 381 | Page 10 | Records = 1000
+2026-07-22 13:45:01 | WARNING  | extract_measurements | Sensor 381 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:45:01 | INFO     | extract_measurements | Sensor 19/20 | ID = 382
+2026-07-22 13:45:04 | INFO     | extract_measurements | Sensor 382 | Page 1 | Records = 1000
+2026-07-22 13:45:09 | INFO     | extract_measurements | Sensor 382 | Page 2 | Records = 1000
+2026-07-22 13:45:13 | INFO     | extract_measurements | Sensor 382 | Page 3 | Records = 1000
+2026-07-22 13:45:17 | INFO     | extract_measurements | Sensor 382 | Page 4 | Records = 1000
+2026-07-22 13:45:23 | INFO     | extract_measurements | Sensor 382 | Page 5 | Records = 1000
+2026-07-22 13:45:29 | INFO     | extract_measurements | Sensor 382 | Page 6 | Records = 1000
+2026-07-22 13:45:35 | INFO     | extract_measurements | Sensor 382 | Page 7 | Records = 1000
+2026-07-22 13:45:42 | INFO     | extract_measurements | Sensor 382 | Page 8 | Records = 1000
+2026-07-22 13:45:48 | INFO     | extract_measurements | Sensor 382 | Page 9 | Records = 1000
+2026-07-22 13:45:55 | INFO     | extract_measurements | Sensor 382 | Page 10 | Records = 1000
+2026-07-22 13:45:55 | WARNING  | extract_measurements | Sensor 382 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:45:55 | INFO     | extract_measurements | Sensor 20/20 | ID = 383
+2026-07-22 13:45:59 | INFO     | extract_measurements | Sensor 383 | Page 1 | Records = 1000
+2026-07-22 13:46:03 | INFO     | extract_measurements | Sensor 383 | Page 2 | Records = 1000
+2026-07-22 13:46:08 | INFO     | extract_measurements | Sensor 383 | Page 3 | Records = 1000
+2026-07-22 13:46:13 | INFO     | extract_measurements | Sensor 383 | Page 4 | Records = 1000
+2026-07-22 13:46:19 | INFO     | extract_measurements | Sensor 383 | Page 5 | Records = 1000
+2026-07-22 13:46:25 | INFO     | extract_measurements | Sensor 383 | Page 6 | Records = 1000
+2026-07-22 13:46:31 | INFO     | extract_measurements | Sensor 383 | Page 7 | Records = 1000
+2026-07-22 13:46:37 | INFO     | extract_measurements | Sensor 383 | Page 8 | Records = 203
+2026-07-22 13:49:30 | INFO     | extract_measurements | Total Sensors : 9458
+2026-07-22 13:49:30 | INFO     | extract_measurements | Sensor 1/20 | ID = 23
+2026-07-22 13:50:30 | WARNING  | extract_measurements | Network error on attempt 1/5 for https://api.openaq.org/v3/sensors/23/measurements: HTTPSConnectionPool(host='api.openaq.org', port=443): Max retries exceeded with url: /v3/sensors/23/measurements?limit=1000&page=1&date_from=2024-01-01T00%3A00%3A00Z&date_to=2024-12-31T23%3A59%3A59Z (Caused by NameResolutionError("HTTPSConnection(host='api.openaq.org', port=443): Failed to resolve 'api.openaq.org' ([Errno 11001] getaddrinfo failed)"))
+2026-07-22 13:50:30 | INFO     | extract_measurements | Retrying in 2s...
+2026-07-22 13:51:32 | WARNING  | extract_measurements | Network error on attempt 2/5 for https://api.openaq.org/v3/sensors/23/measurements: HTTPSConnectionPool(host='api.openaq.org', port=443): Max retries exceeded with url: /v3/sensors/23/measurements?limit=1000&page=1&date_from=2024-01-01T00%3A00%3A00Z&date_to=2024-12-31T23%3A59%3A59Z (Caused by NameResolutionError("HTTPSConnection(host='api.openaq.org', port=443): Failed to resolve 'api.openaq.org' ([Errno 11001] getaddrinfo failed)"))
+2026-07-22 13:51:32 | INFO     | extract_measurements | Retrying in 4s...
+2026-07-22 13:52:38 | INFO     | extract_measurements | Sensor 2/20 | ID = 24
+2026-07-22 13:52:40 | INFO     | extract_measurements | Sensor 3/20 | ID = 26
+2026-07-22 13:52:41 | INFO     | extract_measurements | Sensor 4/20 | ID = 27
+2026-07-22 13:52:43 | INFO     | extract_measurements | Sensor 5/20 | ID = 28
+2026-07-22 13:52:44 | INFO     | extract_measurements | Sensor 6/20 | ID = 29
+2026-07-22 13:52:46 | INFO     | extract_measurements | Sensor 7/20 | ID = 30
+2026-07-22 13:52:47 | INFO     | extract_measurements | Sensor 8/20 | ID = 31
+2026-07-22 13:52:49 | INFO     | extract_measurements | Sensor 9/20 | ID = 32
+2026-07-22 13:52:50 | INFO     | extract_measurements | Sensor 10/20 | ID = 33
+2026-07-22 13:52:52 | INFO     | extract_measurements | Sensor 11/20 | ID = 34
+2026-07-22 13:52:53 | INFO     | extract_measurements | Sensor 12/20 | ID = 35
+2026-07-22 13:52:57 | INFO     | extract_measurements | Sensor 35 | Page 1 | Records = 1000
+2026-07-22 13:53:02 | INFO     | extract_measurements | Sensor 35 | Page 2 | Records = 1000
+2026-07-22 13:53:07 | INFO     | extract_measurements | Sensor 35 | Page 3 | Records = 1000
+2026-07-22 13:53:11 | INFO     | extract_measurements | Sensor 35 | Page 4 | Records = 1000
+2026-07-22 13:53:17 | INFO     | extract_measurements | Sensor 35 | Page 5 | Records = 1000
+2026-07-22 13:53:23 | INFO     | extract_measurements | Sensor 35 | Page 6 | Records = 1000
+2026-07-22 13:53:28 | INFO     | extract_measurements | Sensor 35 | Page 7 | Records = 1000
+2026-07-22 13:53:35 | INFO     | extract_measurements | Sensor 35 | Page 8 | Records = 1000
+2026-07-22 13:53:42 | INFO     | extract_measurements | Sensor 35 | Page 9 | Records = 1000
+2026-07-22 13:53:50 | INFO     | extract_measurements | Sensor 35 | Page 10 | Records = 1000
+2026-07-22 13:53:50 | WARNING  | extract_measurements | Sensor 35 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:53:50 | INFO     | extract_measurements | Sensor 13/20 | ID = 36
+2026-07-22 13:53:53 | INFO     | extract_measurements | Sensor 36 | Page 1 | Records = 1000
+2026-07-22 13:53:58 | INFO     | extract_measurements | Sensor 36 | Page 2 | Records = 1000
+2026-07-22 13:54:03 | INFO     | extract_measurements | Sensor 36 | Page 3 | Records = 1000
+2026-07-22 13:54:08 | INFO     | extract_measurements | Sensor 36 | Page 4 | Records = 1000
+2026-07-22 13:54:14 | INFO     | extract_measurements | Sensor 36 | Page 5 | Records = 1000
+2026-07-22 13:54:20 | INFO     | extract_measurements | Sensor 36 | Page 6 | Records = 1000
+2026-07-22 13:54:25 | INFO     | extract_measurements | Sensor 36 | Page 7 | Records = 1000
+2026-07-22 13:54:32 | INFO     | extract_measurements | Sensor 36 | Page 8 | Records = 1000
+2026-07-22 13:54:38 | INFO     | extract_measurements | Sensor 36 | Page 9 | Records = 1000
+2026-07-22 13:54:46 | INFO     | extract_measurements | Sensor 36 | Page 10 | Records = 1000
+2026-07-22 13:54:46 | WARNING  | extract_measurements | Sensor 36 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:54:46 | INFO     | extract_measurements | Sensor 14/20 | ID = 71
+2026-07-22 13:54:50 | INFO     | extract_measurements | Sensor 71 | Page 1 | Records = 1000
+2026-07-22 13:54:55 | INFO     | extract_measurements | Sensor 71 | Page 2 | Records = 1000
+2026-07-22 13:55:01 | INFO     | extract_measurements | Sensor 71 | Page 3 | Records = 1000
+2026-07-22 13:55:07 | INFO     | extract_measurements | Sensor 71 | Page 4 | Records = 1000
+2026-07-22 13:55:13 | INFO     | extract_measurements | Sensor 71 | Page 5 | Records = 1000
+2026-07-22 13:55:19 | INFO     | extract_measurements | Sensor 71 | Page 6 | Records = 1000
+2026-07-22 13:55:27 | INFO     | extract_measurements | Sensor 71 | Page 7 | Records = 1000
+2026-07-22 13:55:34 | INFO     | extract_measurements | Sensor 71 | Page 8 | Records = 1000
+2026-07-22 13:55:42 | INFO     | extract_measurements | Sensor 71 | Page 9 | Records = 1000
+2026-07-22 13:55:51 | INFO     | extract_measurements | Sensor 71 | Page 10 | Records = 1000
+2026-07-22 13:55:51 | WARNING  | extract_measurements | Sensor 71 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:55:51 | INFO     | extract_measurements | Sensor 15/20 | ID = 168
+2026-07-22 13:55:53 | INFO     | extract_measurements | Sensor 16/20 | ID = 169
+2026-07-22 13:55:55 | INFO     | extract_measurements | Sensor 17/20 | ID = 380
+2026-07-22 13:55:59 | INFO     | extract_measurements | Sensor 380 | Page 1 | Records = 1000
+2026-07-22 13:56:04 | INFO     | extract_measurements | Sensor 380 | Page 2 | Records = 1000
+2026-07-22 13:56:10 | INFO     | extract_measurements | Sensor 380 | Page 3 | Records = 1000
+2026-07-22 13:56:15 | INFO     | extract_measurements | Sensor 380 | Page 4 | Records = 1000
+2026-07-22 13:56:22 | INFO     | extract_measurements | Sensor 380 | Page 5 | Records = 1000
+2026-07-22 13:56:27 | INFO     | extract_measurements | Sensor 380 | Page 6 | Records = 1000
+2026-07-22 13:56:33 | INFO     | extract_measurements | Sensor 380 | Page 7 | Records = 1000
+2026-07-22 13:56:40 | INFO     | extract_measurements | Sensor 380 | Page 8 | Records = 1000
+2026-07-22 13:56:47 | INFO     | extract_measurements | Sensor 380 | Page 9 | Records = 1000
+2026-07-22 13:56:53 | INFO     | extract_measurements | Sensor 380 | Page 10 | Records = 1000
+2026-07-22 13:56:53 | WARNING  | extract_measurements | Sensor 380 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:56:53 | INFO     | extract_measurements | Sensor 18/20 | ID = 381
+2026-07-22 13:56:57 | INFO     | extract_measurements | Sensor 381 | Page 1 | Records = 1000
+2026-07-22 13:57:02 | INFO     | extract_measurements | Sensor 381 | Page 2 | Records = 1000
+2026-07-22 13:57:07 | INFO     | extract_measurements | Sensor 381 | Page 3 | Records = 1000
+2026-07-22 13:57:12 | INFO     | extract_measurements | Sensor 381 | Page 4 | Records = 1000
+2026-07-22 13:57:19 | INFO     | extract_measurements | Sensor 381 | Page 5 | Records = 1000
+2026-07-22 13:57:25 | INFO     | extract_measurements | Sensor 381 | Page 6 | Records = 1000
+2026-07-22 13:57:48 | INFO     | extract_measurements | Sensor 381 | Page 7 | Records = 1000
+2026-07-22 13:57:55 | INFO     | extract_measurements | Sensor 381 | Page 8 | Records = 1000
+2026-07-22 13:58:03 | INFO     | extract_measurements | Sensor 381 | Page 9 | Records = 1000
+2026-07-22 13:58:10 | INFO     | extract_measurements | Sensor 381 | Page 10 | Records = 1000
+2026-07-22 13:58:10 | WARNING  | extract_measurements | Sensor 381 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:58:10 | INFO     | extract_measurements | Sensor 19/20 | ID = 382
+2026-07-22 13:58:14 | INFO     | extract_measurements | Sensor 382 | Page 1 | Records = 1000
+2026-07-22 13:58:19 | INFO     | extract_measurements | Sensor 382 | Page 2 | Records = 1000
+2026-07-22 13:58:22 | INFO     | extract_measurements | Sensor 382 | Page 3 | Records = 1000
+2026-07-22 13:58:28 | INFO     | extract_measurements | Sensor 382 | Page 4 | Records = 1000
+2026-07-22 13:58:33 | INFO     | extract_measurements | Sensor 382 | Page 5 | Records = 1000
+2026-07-22 13:58:39 | INFO     | extract_measurements | Sensor 382 | Page 6 | Records = 1000
+2026-07-22 13:58:46 | INFO     | extract_measurements | Sensor 382 | Page 7 | Records = 1000
+2026-07-22 13:58:53 | INFO     | extract_measurements | Sensor 382 | Page 8 | Records = 1000
+2026-07-22 13:58:59 | INFO     | extract_measurements | Sensor 382 | Page 9 | Records = 1000
+2026-07-22 13:59:06 | INFO     | extract_measurements | Sensor 382 | Page 10 | Records = 1000
+2026-07-22 13:59:06 | WARNING  | extract_measurements | Sensor 382 reached 10 pages. Skipping remaining pages.
+2026-07-22 13:59:06 | INFO     | extract_measurements | Sensor 20/20 | ID = 383
+2026-07-22 13:59:10 | INFO     | extract_measurements | Sensor 383 | Page 1 | Records = 1000
+2026-07-22 13:59:14 | INFO     | extract_measurements | Sensor 383 | Page 2 | Records = 1000
+2026-07-22 13:59:18 | INFO     | extract_measurements | Sensor 383 | Page 3 | Records = 1000
+2026-07-22 13:59:23 | INFO     | extract_measurements | Sensor 383 | Page 4 | Records = 1000
+2026-07-22 13:59:28 | INFO     | extract_measurements | Sensor 383 | Page 5 | Records = 1000
+2026-07-22 13:59:34 | INFO     | extract_measurements | Sensor 383 | Page 6 | Records = 1000
+2026-07-22 13:59:41 | INFO     | extract_measurements | Sensor 383 | Page 7 | Records = 1000
+2026-07-22 13:59:46 | INFO     | extract_measurements | Sensor 383 | Page 8 | Records = 203
+2026-07-22 13:59:49 | INFO     | extract_measurements | Saved 67203 measurements
+2026-07-22 13:59:49 | INFO     | extract_measurements | CSV : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\measurements_raw.csv
+2026-07-22 13:59:49 | INFO     | extract_measurements | JSON: C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\measurements_raw.json
+2026-07-23 15:19:32 | INFO     | extract_measurements | Total Sensors : 9458
+2026-07-23 15:19:32 | INFO     | extract_measurements | Sensor 1/100 | ID = 23
+2026-07-23 15:19:33 | INFO     | extract_measurements | Sensor 2/100 | ID = 24
+2026-07-23 15:19:34 | INFO     | extract_measurements | Sensor 3/100 | ID = 26
+2026-07-23 15:19:35 | INFO     | extract_measurements | Sensor 4/100 | ID = 27
+2026-07-23 15:19:37 | INFO     | extract_measurements | Sensor 5/100 | ID = 28
+2026-07-23 15:19:38 | INFO     | extract_measurements | Sensor 6/100 | ID = 29
+2026-07-23 15:19:39 | INFO     | extract_measurements | Sensor 7/100 | ID = 30
+2026-07-23 15:19:40 | INFO     | extract_measurements | Sensor 8/100 | ID = 31
+2026-07-23 15:19:41 | INFO     | extract_measurements | Sensor 9/100 | ID = 32
+2026-07-23 15:19:41 | INFO     | extract_measurements | Sensor 10/100 | ID = 33
+2026-07-23 15:19:42 | INFO     | extract_measurements | Sensor 11/100 | ID = 34
+2026-07-23 15:19:43 | INFO     | extract_measurements | Sensor 12/100 | ID = 35
+2026-07-23 15:19:46 | INFO     | extract_measurements | Sensor 35 | Page None | Records = 1000
+2026-07-23 15:22:48 | INFO     | extract_measurements | ============================================================
+2026-07-23 15:22:48 | INFO     | extract_measurements | Starting Measurement Extraction
+2026-07-23 15:22:48 | INFO     | extract_measurements | ============================================================
+2026-07-23 15:22:48 | INFO     | extract_measurements | Loading Sensor IDs...
+2026-07-23 15:22:48 | INFO     | extract_measurements | Total Unique Sensors : 9458
+2026-07-23 15:22:48 | INFO     | extract_measurements | Downloading measurements for first 100 sensors...
+2026-07-23 15:22:48 | INFO     | extract_measurements | Sensor 1/100 | ID = 23
+2026-07-23 15:22:50 | INFO     | extract_measurements | Sensor 2/100 | ID = 24
+2026-07-23 15:22:50 | INFO     | extract_measurements | Sensor 3/100 | ID = 26
+2026-07-23 15:22:51 | INFO     | extract_measurements | Sensor 4/100 | ID = 27
+2026-07-23 15:22:52 | INFO     | extract_measurements | Sensor 5/100 | ID = 28
+2026-07-23 15:22:52 | INFO     | extract_measurements | Sensor 6/100 | ID = 29
+2026-07-23 15:22:53 | INFO     | extract_measurements | Sensor 7/100 | ID = 30
+2026-07-23 15:22:54 | INFO     | extract_measurements | Sensor 8/100 | ID = 31
+2026-07-23 15:22:54 | INFO     | extract_measurements | Sensor 9/100 | ID = 32
+2026-07-23 15:22:55 | INFO     | extract_measurements | Sensor 10/100 | ID = 33
+2026-07-23 15:22:55 | INFO     | extract_measurements | Sensor 11/100 | ID = 34
+2026-07-23 15:22:56 | INFO     | extract_measurements | Sensor 12/100 | ID = 35
+2026-07-23 15:22:58 | INFO     | extract_measurements | Sensor 35 | Page 1 | Records 1000
+2026-07-23 15:23:00 | INFO     | extract_measurements | Sensor 35 | Page 2 | Records 1000
+2026-07-23 15:23:04 | INFO     | extract_measurements | Sensor 35 | Page 3 | Records 1000
+2026-07-23 15:23:08 | INFO     | extract_measurements | Sensor 35 | Page 4 | Records 1000
+2026-07-23 15:23:11 | INFO     | extract_measurements | Sensor 35 | Page 5 | Records 1000
+2026-07-23 15:23:15 | INFO     | extract_measurements | Sensor 35 | Page 6 | Records 1000
+2026-07-23 15:23:20 | INFO     | extract_measurements | Sensor 35 | Page 7 | Records 1000
+2026-07-23 15:23:25 | INFO     | extract_measurements | Sensor 35 | Page 8 | Records 1000
+2026-07-23 15:23:30 | INFO     | extract_measurements | Sensor 35 | Page 9 | Records 1000
+2026-07-23 15:23:35 | INFO     | extract_measurements | Sensor 35 | Page 10 | Records 1000
+2026-07-23 15:23:35 | WARNING  | extract_measurements | Sensor 35 reached 10 pages.
+2026-07-23 15:23:35 | INFO     | extract_measurements | Sensor 13/100 | ID = 36
+2026-07-23 15:23:38 | INFO     | extract_measurements | Sensor 36 | Page 1 | Records 1000
+2026-07-23 15:23:40 | INFO     | extract_measurements | Sensor 36 | Page 2 | Records 1000
+2026-07-23 15:23:43 | INFO     | extract_measurements | Sensor 36 | Page 3 | Records 1000
+2026-07-23 15:23:47 | INFO     | extract_measurements | Sensor 36 | Page 4 | Records 1000
+2026-07-23 15:23:50 | INFO     | extract_measurements | Sensor 36 | Page 5 | Records 1000
+2026-07-23 15:24:00 | INFO     | extract_measurements | Sensor 36 | Page 6 | Records 1000
+2026-07-23 15:24:05 | INFO     | extract_measurements | Sensor 36 | Page 7 | Records 1000
+2026-07-23 15:24:09 | INFO     | extract_measurements | Sensor 36 | Page 8 | Records 1000
+2026-07-23 15:24:15 | INFO     | extract_measurements | Sensor 36 | Page 9 | Records 1000
+2026-07-23 15:24:22 | INFO     | extract_measurements | Sensor 36 | Page 10 | Records 1000
+2026-07-23 15:24:22 | WARNING  | extract_measurements | Sensor 36 reached 10 pages.
+2026-07-23 15:24:22 | INFO     | extract_measurements | Sensor 14/100 | ID = 71
+2026-07-23 15:24:24 | INFO     | extract_measurements | Sensor 71 | Page 1 | Records 1000
+2026-07-23 15:24:27 | INFO     | extract_measurements | Sensor 71 | Page 2 | Records 1000
+2026-07-23 15:24:30 | INFO     | extract_measurements | Sensor 71 | Page 3 | Records 1000
+2026-07-23 15:24:33 | INFO     | extract_measurements | Sensor 71 | Page 4 | Records 1000
+2026-07-23 15:24:36 | INFO     | extract_measurements | Sensor 71 | Page 5 | Records 1000
+2026-07-23 15:24:40 | INFO     | extract_measurements | Sensor 71 | Page 6 | Records 1000
+2026-07-23 15:24:45 | INFO     | extract_measurements | Sensor 71 | Page 7 | Records 1000
+2026-07-23 15:24:51 | INFO     | extract_measurements | Sensor 71 | Page 8 | Records 1000
+2026-07-23 15:24:57 | INFO     | extract_measurements | Sensor 71 | Page 9 | Records 1000
+2026-07-23 15:25:04 | INFO     | extract_measurements | Sensor 71 | Page 10 | Records 1000
+2026-07-23 15:25:04 | WARNING  | extract_measurements | Sensor 71 reached 10 pages.
+2026-07-23 15:25:04 | INFO     | extract_measurements | Sensor 15/100 | ID = 168
+2026-07-23 15:25:04 | INFO     | extract_measurements | Sensor 16/100 | ID = 169
+2026-07-23 15:25:05 | INFO     | extract_measurements | Sensor 17/100 | ID = 380
+2026-07-23 15:25:08 | INFO     | extract_measurements | Sensor 380 | Page 1 | Records 1000
+2026-07-23 15:25:10 | INFO     | extract_measurements | Sensor 380 | Page 2 | Records 1000
+2026-07-23 15:25:13 | INFO     | extract_measurements | Sensor 380 | Page 3 | Records 1000
+2026-07-23 15:25:17 | INFO     | extract_measurements | Sensor 380 | Page 4 | Records 1000
+2026-07-23 15:25:22 | INFO     | extract_measurements | Sensor 380 | Page 5 | Records 1000
+2026-07-23 15:25:26 | INFO     | extract_measurements | Sensor 380 | Page 6 | Records 1000
+2026-07-23 15:25:30 | INFO     | extract_measurements | Sensor 380 | Page 7 | Records 1000
+2026-07-23 15:25:36 | INFO     | extract_measurements | Sensor 380 | Page 8 | Records 1000
+2026-07-23 15:25:40 | INFO     | extract_measurements | Sensor 380 | Page 9 | Records 1000
+2026-07-23 15:25:46 | INFO     | extract_measurements | Sensor 380 | Page 10 | Records 1000
+2026-07-23 15:25:46 | WARNING  | extract_measurements | Sensor 380 reached 10 pages.
+2026-07-23 15:25:46 | INFO     | extract_measurements | Sensor 18/100 | ID = 381
+2026-07-23 15:25:47 | INFO     | extract_measurements | Sensor 381 | Page 1 | Records 1000
+2026-07-23 15:25:51 | INFO     | extract_measurements | Sensor 381 | Page 2 | Records 1000
+2026-07-23 15:25:55 | INFO     | extract_measurements | Sensor 381 | Page 3 | Records 1000
+2026-07-23 15:25:58 | INFO     | extract_measurements | Sensor 381 | Page 4 | Records 1000
+2026-07-23 15:26:01 | INFO     | extract_measurements | Sensor 381 | Page 5 | Records 1000
+2026-07-23 15:26:05 | INFO     | extract_measurements | Sensor 381 | Page 6 | Records 1000
+2026-07-23 15:26:10 | INFO     | extract_measurements | Sensor 381 | Page 7 | Records 1000
+2026-07-23 15:26:15 | INFO     | extract_measurements | Sensor 381 | Page 8 | Records 1000
+2026-07-23 15:26:23 | INFO     | extract_measurements | Sensor 381 | Page 9 | Records 1000
+2026-07-23 15:26:29 | INFO     | extract_measurements | Sensor 381 | Page 10 | Records 1000
+2026-07-23 15:26:29 | WARNING  | extract_measurements | Sensor 381 reached 10 pages.
+2026-07-23 15:26:29 | INFO     | extract_measurements | Sensor 19/100 | ID = 382
+2026-07-23 15:26:32 | INFO     | extract_measurements | Sensor 382 | Page 1 | Records 1000
+2026-07-23 15:26:37 | INFO     | extract_measurements | Sensor 382 | Page 2 | Records 1000
+2026-07-23 15:26:40 | INFO     | extract_measurements | Sensor 382 | Page 3 | Records 1000
+2026-07-23 15:26:44 | INFO     | extract_measurements | Sensor 382 | Page 4 | Records 1000
+2026-07-23 15:26:48 | INFO     | extract_measurements | Sensor 382 | Page 5 | Records 1000
+2026-07-23 15:26:53 | INFO     | extract_measurements | Sensor 382 | Page 6 | Records 1000
+2026-07-23 15:26:58 | INFO     | extract_measurements | Sensor 382 | Page 7 | Records 1000
+2026-07-23 15:27:04 | INFO     | extract_measurements | Sensor 382 | Page 8 | Records 1000
+2026-07-23 15:27:09 | INFO     | extract_measurements | Sensor 382 | Page 9 | Records 1000
+2026-07-23 15:27:16 | INFO     | extract_measurements | Sensor 382 | Page 10 | Records 1000
+2026-07-23 15:27:16 | WARNING  | extract_measurements | Sensor 382 reached 10 pages.
+2026-07-23 15:27:16 | INFO     | extract_measurements | Sensor 20/100 | ID = 383
+2026-07-23 15:27:18 | INFO     | extract_measurements | Sensor 383 | Page 1 | Records 1000
+2026-07-23 15:27:20 | INFO     | extract_measurements | Sensor 383 | Page 2 | Records 1000
+2026-07-23 15:27:22 | INFO     | extract_measurements | Sensor 383 | Page 3 | Records 1000
+2026-07-23 15:27:27 | INFO     | extract_measurements | Sensor 383 | Page 4 | Records 1000
+2026-07-23 15:27:32 | INFO     | extract_measurements | Sensor 383 | Page 5 | Records 1000
+2026-07-23 15:27:35 | INFO     | extract_measurements | Sensor 383 | Page 6 | Records 1000
+2026-07-23 15:27:39 | INFO     | extract_measurements | Sensor 383 | Page 7 | Records 1000
+2026-07-23 15:27:42 | INFO     | extract_measurements | Sensor 383 | Page 8 | Records 203
+2026-07-23 15:27:42 | INFO     | extract_measurements | Sensor 21/100 | ID = 384
+2026-07-23 15:27:45 | INFO     | extract_measurements | Sensor 384 | Page 1 | Records 1000
+2026-07-23 15:27:47 | INFO     | extract_measurements | Sensor 384 | Page 2 | Records 1000
+2026-07-23 15:27:50 | INFO     | extract_measurements | Sensor 384 | Page 3 | Records 1000
+2026-07-23 15:27:54 | INFO     | extract_measurements | Sensor 384 | Page 4 | Records 1000
+2026-07-23 15:27:58 | INFO     | extract_measurements | Sensor 384 | Page 5 | Records 1000
+2026-07-23 15:28:04 | INFO     | extract_measurements | Sensor 384 | Page 6 | Records 1000
+2026-07-23 15:28:09 | INFO     | extract_measurements | Sensor 384 | Page 7 | Records 1000
+2026-07-23 15:28:14 | INFO     | extract_measurements | Sensor 384 | Page 8 | Records 1000
+2026-07-23 15:28:19 | INFO     | extract_measurements | Sensor 384 | Page 9 | Records 1000
+2026-07-23 15:28:25 | INFO     | extract_measurements | Sensor 384 | Page 10 | Records 1000
+2026-07-23 15:28:25 | WARNING  | extract_measurements | Sensor 384 reached 10 pages.
+2026-07-23 15:28:25 | INFO     | extract_measurements | Sensor 22/100 | ID = 385
+2026-07-23 15:28:25 | INFO     | extract_measurements | Sensor 385 | Page 1 | Records 126
+2026-07-23 15:28:25 | INFO     | extract_measurements | Sensor 23/100 | ID = 386
+2026-07-23 15:28:28 | INFO     | extract_measurements | Sensor 386 | Page 1 | Records 1000
+2026-07-23 15:28:31 | INFO     | extract_measurements | Sensor 386 | Page 2 | Records 1000
+2026-07-23 15:28:35 | INFO     | extract_measurements | Sensor 386 | Page 3 | Records 1000
+2026-07-23 15:28:39 | INFO     | extract_measurements | Sensor 386 | Page 4 | Records 1000
+2026-07-23 15:28:43 | INFO     | extract_measurements | Sensor 386 | Page 5 | Records 1000
+2026-07-23 15:28:46 | INFO     | extract_measurements | Sensor 386 | Page 6 | Records 1000
+2026-07-23 15:28:50 | INFO     | extract_measurements | Sensor 386 | Page 7 | Records 1000
+2026-07-23 15:28:54 | INFO     | extract_measurements | Sensor 386 | Page 8 | Records 1000
+2026-07-23 15:28:59 | INFO     | extract_measurements | Sensor 386 | Page 9 | Records 1000
+2026-07-23 15:29:05 | INFO     | extract_measurements | Sensor 386 | Page 10 | Records 1000
+2026-07-23 15:29:05 | WARNING  | extract_measurements | Sensor 386 reached 10 pages.
+2026-07-23 15:29:05 | INFO     | extract_measurements | Sensor 24/100 | ID = 387
+2026-07-23 15:29:06 | INFO     | extract_measurements | Sensor 387 | Page 1 | Records 1000
+2026-07-23 15:29:09 | INFO     | extract_measurements | Sensor 387 | Page 2 | Records 1000
+2026-07-23 15:29:12 | INFO     | extract_measurements | Sensor 387 | Page 3 | Records 1000
+2026-07-23 15:29:16 | INFO     | extract_measurements | Sensor 387 | Page 4 | Records 1000
+2026-07-23 15:29:21 | INFO     | extract_measurements | Sensor 387 | Page 5 | Records 1000
+2026-07-23 15:29:25 | INFO     | extract_measurements | Sensor 387 | Page 6 | Records 1000
+2026-07-23 15:29:29 | INFO     | extract_measurements | Sensor 387 | Page 7 | Records 1000
+2026-07-23 15:29:34 | INFO     | extract_measurements | Sensor 387 | Page 8 | Records 1000
+2026-07-23 15:29:38 | INFO     | extract_measurements | Sensor 387 | Page 9 | Records 127
+2026-07-23 15:29:38 | INFO     | extract_measurements | Sensor 25/100 | ID = 388
+2026-07-23 15:29:40 | INFO     | extract_measurements | Sensor 388 | Page 1 | Records 1000
+2026-07-23 15:29:42 | INFO     | extract_measurements | Sensor 388 | Page 2 | Records 1000
+2026-07-23 15:29:45 | INFO     | extract_measurements | Sensor 388 | Page 3 | Records 1000
+2026-07-23 15:29:49 | INFO     | extract_measurements | Sensor 388 | Page 4 | Records 1000
+2026-07-23 15:29:53 | INFO     | extract_measurements | Sensor 388 | Page 5 | Records 1000
+2026-07-23 15:29:58 | INFO     | extract_measurements | Sensor 388 | Page 6 | Records 1000
+2026-07-23 15:30:03 | INFO     | extract_measurements | Sensor 388 | Page 7 | Records 1000
+2026-07-23 15:30:08 | INFO     | extract_measurements | Sensor 388 | Page 8 | Records 1000
+2026-07-23 15:30:12 | INFO     | extract_measurements | Sensor 388 | Page 9 | Records 1000
+2026-07-23 15:30:18 | INFO     | extract_measurements | Sensor 388 | Page 10 | Records 1000
+2026-07-23 15:30:18 | WARNING  | extract_measurements | Sensor 388 reached 10 pages.
+2026-07-23 15:30:18 | INFO     | extract_measurements | Sensor 26/100 | ID = 389
+2026-07-23 15:30:23 | INFO     | extract_measurements | Sensor 389 | Page 1 | Records 1000
+2026-07-23 15:30:25 | INFO     | extract_measurements | Sensor 389 | Page 2 | Records 1000
+2026-07-23 15:30:28 | INFO     | extract_measurements | Sensor 389 | Page 3 | Records 1000
+2026-07-23 15:30:31 | INFO     | extract_measurements | Sensor 389 | Page 4 | Records 1000
+2026-07-23 15:30:35 | INFO     | extract_measurements | Sensor 389 | Page 5 | Records 1000
+2026-07-23 15:30:38 | INFO     | extract_measurements | Sensor 389 | Page 6 | Records 1000
+2026-07-23 15:30:42 | INFO     | extract_measurements | Sensor 389 | Page 7 | Records 1000
+2026-07-23 15:30:46 | INFO     | extract_measurements | Sensor 389 | Page 8 | Records 1000
+2026-07-23 15:30:52 | INFO     | extract_measurements | Sensor 389 | Page 9 | Records 1000
+2026-07-23 15:30:59 | INFO     | extract_measurements | Sensor 389 | Page 10 | Records 1000
+2026-07-23 15:30:59 | WARNING  | extract_measurements | Sensor 389 reached 10 pages.
+2026-07-23 15:30:59 | INFO     | extract_measurements | Sensor 27/100 | ID = 390
+2026-07-23 15:31:02 | INFO     | extract_measurements | Sensor 390 | Page 1 | Records 1000
+2026-07-23 15:31:04 | INFO     | extract_measurements | Sensor 390 | Page 2 | Records 858
+2026-07-23 15:31:04 | INFO     | extract_measurements | Sensor 28/100 | ID = 391
+2026-07-23 15:31:06 | INFO     | extract_measurements | Sensor 391 | Page 1 | Records 1000
+2026-07-23 15:31:09 | INFO     | extract_measurements | Sensor 391 | Page 2 | Records 1000
+2026-07-23 15:31:12 | INFO     | extract_measurements | Sensor 391 | Page 3 | Records 1000
+2026-07-23 15:31:15 | INFO     | extract_measurements | Sensor 391 | Page 4 | Records 1000
+2026-07-23 15:31:18 | INFO     | extract_measurements | Sensor 391 | Page 5 | Records 1000
+2026-07-23 15:31:23 | INFO     | extract_measurements | Sensor 391 | Page 6 | Records 1000
+2026-07-23 15:31:27 | INFO     | extract_measurements | Sensor 391 | Page 7 | Records 1000
+2026-07-23 15:31:33 | INFO     | extract_measurements | Sensor 391 | Page 8 | Records 1000
+2026-07-23 15:31:37 | INFO     | extract_measurements | Sensor 391 | Page 9 | Records 1000
+2026-07-23 15:31:42 | INFO     | extract_measurements | Sensor 391 | Page 10 | Records 1000
+2026-07-23 15:31:42 | WARNING  | extract_measurements | Sensor 391 reached 10 pages.
+2026-07-23 15:31:42 | INFO     | extract_measurements | Sensor 29/100 | ID = 392
+2026-07-23 15:31:45 | INFO     | extract_measurements | Sensor 392 | Page 1 | Records 1000
+2026-07-23 15:31:48 | INFO     | extract_measurements | Sensor 392 | Page 2 | Records 1000
+2026-07-23 15:31:51 | INFO     | extract_measurements | Sensor 392 | Page 3 | Records 1000
+2026-07-23 15:31:54 | INFO     | extract_measurements | Sensor 392 | Page 4 | Records 1000
+2026-07-23 15:31:58 | INFO     | extract_measurements | Sensor 392 | Page 5 | Records 1000
+2026-07-23 15:32:02 | INFO     | extract_measurements | Sensor 392 | Page 6 | Records 1000
+2026-07-23 15:32:06 | INFO     | extract_measurements | Sensor 392 | Page 7 | Records 1000
+2026-07-23 15:32:12 | INFO     | extract_measurements | Sensor 392 | Page 8 | Records 1000
+2026-07-23 15:32:17 | INFO     | extract_measurements | Sensor 392 | Page 9 | Records 1000
+2026-07-23 15:32:22 | INFO     | extract_measurements | Sensor 392 | Page 10 | Records 1000
+2026-07-23 15:32:22 | WARNING  | extract_measurements | Sensor 392 reached 10 pages.
+2026-07-23 15:32:22 | INFO     | extract_measurements | Sensor 30/100 | ID = 393
+2026-07-23 15:32:24 | INFO     | extract_measurements | Sensor 393 | Page 1 | Records 1000
+2026-07-23 15:32:27 | INFO     | extract_measurements | Sensor 393 | Page 2 | Records 1000
+2026-07-23 15:32:29 | INFO     | extract_measurements | Sensor 393 | Page 3 | Records 1000
+2026-07-23 15:32:33 | INFO     | extract_measurements | Sensor 393 | Page 4 | Records 1000
+2026-07-23 15:32:36 | INFO     | extract_measurements | Sensor 393 | Page 5 | Records 1000
+2026-07-23 15:32:39 | INFO     | extract_measurements | Sensor 393 | Page 6 | Records 1000
+2026-07-23 15:32:43 | INFO     | extract_measurements | Sensor 393 | Page 7 | Records 1000
+2026-07-23 15:32:49 | INFO     | extract_measurements | Sensor 393 | Page 8 | Records 989
+2026-07-23 15:32:49 | INFO     | extract_measurements | Sensor 31/100 | ID = 394
+2026-07-23 15:32:51 | INFO     | extract_measurements | Sensor 394 | Page 1 | Records 1000
+2026-07-23 15:32:53 | INFO     | extract_measurements | Sensor 394 | Page 2 | Records 1000
+2026-07-23 15:32:57 | INFO     | extract_measurements | Sensor 394 | Page 3 | Records 1000
+2026-07-23 15:33:02 | INFO     | extract_measurements | Sensor 394 | Page 4 | Records 1000
+2026-07-23 15:33:06 | INFO     | extract_measurements | Sensor 394 | Page 5 | Records 1000
+2026-07-23 15:33:09 | INFO     | extract_measurements | Sensor 394 | Page 6 | Records 1000
+2026-07-23 15:33:13 | INFO     | extract_measurements | Sensor 394 | Page 7 | Records 1000
+2026-07-23 15:33:17 | INFO     | extract_measurements | Sensor 394 | Page 8 | Records 1000
+2026-07-23 15:33:21 | INFO     | extract_measurements | Sensor 394 | Page 9 | Records 1000
+2026-07-23 15:33:26 | INFO     | extract_measurements | Sensor 394 | Page 10 | Records 1000
+2026-07-23 15:33:26 | WARNING  | extract_measurements | Sensor 394 reached 10 pages.
+2026-07-23 15:33:26 | INFO     | extract_measurements | Sensor 32/100 | ID = 395
+2026-07-23 15:33:28 | INFO     | extract_measurements | Sensor 395 | Page 1 | Records 1000
+2026-07-23 15:33:30 | INFO     | extract_measurements | Sensor 395 | Page 2 | Records 1000
+2026-07-23 15:33:34 | INFO     | extract_measurements | Sensor 395 | Page 3 | Records 1000
+2026-07-23 15:33:38 | INFO     | extract_measurements | Sensor 395 | Page 4 | Records 1000
+2026-07-23 15:33:43 | INFO     | extract_measurements | Sensor 395 | Page 5 | Records 1000
+2026-07-23 15:33:47 | INFO     | extract_measurements | Sensor 395 | Page 6 | Records 1000
+2026-07-23 15:33:52 | INFO     | extract_measurements | Sensor 395 | Page 7 | Records 1000
+2026-07-23 15:33:58 | INFO     | extract_measurements | Sensor 395 | Page 8 | Records 1000
+2026-07-23 15:34:03 | INFO     | extract_measurements | Sensor 395 | Page 9 | Records 1000
+2026-07-23 15:34:10 | INFO     | extract_measurements | Sensor 395 | Page 10 | Records 1000
+2026-07-23 15:34:10 | WARNING  | extract_measurements | Sensor 395 reached 10 pages.
+2026-07-23 15:34:10 | INFO     | extract_measurements | Sensor 33/100 | ID = 396
+2026-07-23 15:34:12 | INFO     | extract_measurements | Sensor 396 | Page 1 | Records 1000
+2026-07-23 15:34:16 | INFO     | extract_measurements | Sensor 396 | Page 2 | Records 1000
+2026-07-23 15:34:19 | INFO     | extract_measurements | Sensor 396 | Page 3 | Records 1000
+2026-07-23 15:34:22 | INFO     | extract_measurements | Sensor 396 | Page 4 | Records 1000
+2026-07-23 15:34:25 | INFO     | extract_measurements | Sensor 396 | Page 5 | Records 1000
+2026-07-23 15:34:29 | INFO     | extract_measurements | Sensor 396 | Page 6 | Records 1000
+2026-07-23 15:34:34 | INFO     | extract_measurements | Sensor 396 | Page 7 | Records 1000
+2026-07-23 15:34:39 | INFO     | extract_measurements | Sensor 396 | Page 8 | Records 1000
+2026-07-23 15:34:44 | INFO     | extract_measurements | Sensor 396 | Page 9 | Records 1000
+2026-07-23 15:34:50 | INFO     | extract_measurements | Sensor 396 | Page 10 | Records 1000
+2026-07-23 15:34:50 | WARNING  | extract_measurements | Sensor 396 reached 10 pages.
+2026-07-23 15:34:50 | INFO     | extract_measurements | Sensor 34/100 | ID = 397
+2026-07-23 15:34:52 | INFO     | extract_measurements | Sensor 397 | Page 1 | Records 1000
+2026-07-23 15:34:54 | INFO     | extract_measurements | Sensor 397 | Page 2 | Records 1000
+2026-07-23 15:34:57 | INFO     | extract_measurements | Sensor 397 | Page 3 | Records 1000
+2026-07-23 15:35:01 | INFO     | extract_measurements | Sensor 397 | Page 4 | Records 1000
+2026-07-23 15:35:05 | INFO     | extract_measurements | Sensor 397 | Page 5 | Records 1000
+2026-07-23 15:35:10 | INFO     | extract_measurements | Sensor 397 | Page 6 | Records 1000
+2026-07-23 15:35:15 | INFO     | extract_measurements | Sensor 397 | Page 7 | Records 1000
+2026-07-23 15:35:21 | INFO     | extract_measurements | Sensor 397 | Page 8 | Records 1000
+2026-07-23 15:35:26 | INFO     | extract_measurements | Sensor 397 | Page 9 | Records 692
+2026-07-23 15:35:26 | INFO     | extract_measurements | Sensor 35/100 | ID = 398
+2026-07-23 15:35:27 | INFO     | extract_measurements | Sensor 398 | Page 1 | Records 1000
+2026-07-23 15:35:30 | INFO     | extract_measurements | Sensor 398 | Page 2 | Records 1000
+2026-07-23 15:35:33 | INFO     | extract_measurements | Sensor 398 | Page 3 | Records 1000
+2026-07-23 15:35:37 | INFO     | extract_measurements | Sensor 398 | Page 4 | Records 1000
+2026-07-23 15:35:40 | INFO     | extract_measurements | Sensor 398 | Page 5 | Records 1000
+2026-07-23 15:35:45 | INFO     | extract_measurements | Sensor 398 | Page 6 | Records 1000
+2026-07-23 15:35:49 | INFO     | extract_measurements | Sensor 398 | Page 7 | Records 1000
+2026-07-23 15:35:54 | INFO     | extract_measurements | Sensor 398 | Page 8 | Records 1000
+2026-07-23 15:36:01 | INFO     | extract_measurements | Sensor 398 | Page 9 | Records 1000
+2026-07-23 15:36:07 | INFO     | extract_measurements | Sensor 398 | Page 10 | Records 1000
+2026-07-23 15:36:07 | WARNING  | extract_measurements | Sensor 398 reached 10 pages.
+2026-07-23 15:36:07 | INFO     | extract_measurements | Sensor 36/100 | ID = 399
+2026-07-23 15:36:09 | INFO     | extract_measurements | Sensor 399 | Page 1 | Records 1000
+2026-07-23 15:36:12 | INFO     | extract_measurements | Sensor 399 | Page 2 | Records 1000
+2026-07-23 15:36:14 | INFO     | extract_measurements | Sensor 399 | Page 3 | Records 1000
+2026-07-23 15:36:18 | INFO     | extract_measurements | Sensor 399 | Page 4 | Records 1000
+2026-07-23 15:36:22 | INFO     | extract_measurements | Sensor 399 | Page 5 | Records 1000
+2026-07-23 15:36:26 | INFO     | extract_measurements | Sensor 399 | Page 6 | Records 1000
+2026-07-23 15:36:30 | INFO     | extract_measurements | Sensor 399 | Page 7 | Records 1000
+2026-07-23 15:36:35 | INFO     | extract_measurements | Sensor 399 | Page 8 | Records 1000
+2026-07-23 15:36:41 | INFO     | extract_measurements | Sensor 399 | Page 9 | Records 1000
+2026-07-23 15:36:47 | INFO     | extract_measurements | Sensor 399 | Page 10 | Records 1000
+2026-07-23 15:36:47 | WARNING  | extract_measurements | Sensor 399 reached 10 pages.
+2026-07-23 15:36:47 | INFO     | extract_measurements | Sensor 37/100 | ID = 400
+2026-07-23 15:36:49 | INFO     | extract_measurements | Sensor 400 | Page 1 | Records 1000
+2026-07-23 15:36:51 | INFO     | extract_measurements | Sensor 400 | Page 2 | Records 1000
+2026-07-23 15:36:54 | INFO     | extract_measurements | Sensor 400 | Page 3 | Records 1000
+2026-07-23 15:36:59 | INFO     | extract_measurements | Sensor 400 | Page 4 | Records 1000
+2026-07-23 15:37:03 | INFO     | extract_measurements | Sensor 400 | Page 5 | Records 1000
+2026-07-23 15:37:07 | INFO     | extract_measurements | Sensor 400 | Page 6 | Records 1000
+2026-07-23 15:37:13 | INFO     | extract_measurements | Sensor 400 | Page 7 | Records 1000
+2026-07-23 15:37:18 | INFO     | extract_measurements | Sensor 400 | Page 8 | Records 1000
+2026-07-23 15:37:25 | INFO     | extract_measurements | Sensor 400 | Page 9 | Records 1000
+2026-07-23 15:37:32 | INFO     | extract_measurements | Sensor 400 | Page 10 | Records 1000
+2026-07-23 15:37:32 | WARNING  | extract_measurements | Sensor 400 reached 10 pages.
+2026-07-23 15:37:32 | INFO     | extract_measurements | Sensor 38/100 | ID = 474
+2026-07-23 15:37:35 | INFO     | extract_measurements | Sensor 474 | Page 1 | Records 1000
+2026-07-23 15:37:38 | INFO     | extract_measurements | Sensor 474 | Page 2 | Records 1000
+2026-07-23 15:37:41 | INFO     | extract_measurements | Sensor 474 | Page 3 | Records 1000
+2026-07-23 15:37:45 | INFO     | extract_measurements | Sensor 474 | Page 4 | Records 318
+2026-07-23 15:37:45 | INFO     | extract_measurements | Sensor 39/100 | ID = 506
+2026-07-23 15:37:46 | INFO     | extract_measurements | Sensor 506 | Page 1 | Records 36
+2026-07-23 15:37:46 | INFO     | extract_measurements | Sensor 40/100 | ID = 562
+2026-07-23 15:37:50 | INFO     | extract_measurements | Sensor 562 | Page 1 | Records 1000
+2026-07-23 15:37:56 | INFO     | extract_measurements | Sensor 562 | Page 2 | Records 1000
+2026-07-23 15:38:01 | INFO     | extract_measurements | Sensor 562 | Page 3 | Records 1000
+2026-07-23 15:38:05 | INFO     | extract_measurements | Sensor 562 | Page 4 | Records 1000
+2026-07-23 15:38:11 | INFO     | extract_measurements | Sensor 562 | Page 5 | Records 1000
+2026-07-23 15:38:19 | INFO     | extract_measurements | Sensor 562 | Page 6 | Records 1000
+2026-07-23 15:38:27 | INFO     | extract_measurements | Sensor 562 | Page 7 | Records 1000
+2026-07-23 15:38:35 | INFO     | extract_measurements | Sensor 562 | Page 8 | Records 1000
+2026-07-23 15:38:42 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/562/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:38:42 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/562/measurements. Skipping this request.
+2026-07-23 15:38:42 | WARNING  | extract_measurements | Sensor 562 : API returned None
+2026-07-23 15:38:42 | INFO     | extract_measurements | Sensor 41/100 | ID = 563
+2026-07-23 15:38:45 | INFO     | extract_measurements | Sensor 563 | Page 1 | Records 1000
+2026-07-23 15:38:49 | INFO     | extract_measurements | Sensor 563 | Page 2 | Records 1000
+2026-07-23 15:38:52 | INFO     | extract_measurements | Sensor 563 | Page 3 | Records 1000
+2026-07-23 15:38:57 | INFO     | extract_measurements | Sensor 563 | Page 4 | Records 1000
+2026-07-23 15:39:03 | INFO     | extract_measurements | Sensor 563 | Page 5 | Records 1000
+2026-07-23 15:39:11 | INFO     | extract_measurements | Sensor 563 | Page 6 | Records 1000
+2026-07-23 15:39:18 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/563/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:39:18 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/563/measurements. Skipping this request.
+2026-07-23 15:39:18 | WARNING  | extract_measurements | Sensor 563 : API returned None
+2026-07-23 15:39:18 | INFO     | extract_measurements | Sensor 42/100 | ID = 564
+2026-07-23 15:39:20 | INFO     | extract_measurements | Sensor 564 | Page 1 | Records 1000
+2026-07-23 15:39:23 | INFO     | extract_measurements | Sensor 564 | Page 2 | Records 1000
+2026-07-23 15:39:28 | INFO     | extract_measurements | Sensor 564 | Page 3 | Records 1000
+2026-07-23 15:39:34 | INFO     | extract_measurements | Sensor 564 | Page 4 | Records 1000
+2026-07-23 15:39:40 | INFO     | extract_measurements | Sensor 564 | Page 5 | Records 1000
+2026-07-23 15:39:47 | INFO     | extract_measurements | Sensor 564 | Page 6 | Records 1000
+2026-07-23 15:39:54 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/564/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:39:54 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/564/measurements. Skipping this request.
+2026-07-23 15:39:54 | WARNING  | extract_measurements | Sensor 564 : API returned None
+2026-07-23 15:39:54 | INFO     | extract_measurements | Sensor 43/100 | ID = 565
+2026-07-23 15:39:57 | INFO     | extract_measurements | Sensor 565 | Page 1 | Records 1000
+2026-07-23 15:40:01 | INFO     | extract_measurements | Sensor 565 | Page 2 | Records 1000
+2026-07-23 15:40:06 | INFO     | extract_measurements | Sensor 565 | Page 3 | Records 1000
+2026-07-23 15:40:11 | INFO     | extract_measurements | Sensor 565 | Page 4 | Records 1000
+2026-07-23 15:40:16 | INFO     | extract_measurements | Sensor 565 | Page 5 | Records 1000
+2026-07-23 15:40:23 | INFO     | extract_measurements | Sensor 565 | Page 6 | Records 1000
+2026-07-23 15:40:30 | INFO     | extract_measurements | Sensor 565 | Page 7 | Records 1000
+2026-07-23 15:40:37 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/565/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:40:37 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/565/measurements. Skipping this request.
+2026-07-23 15:40:37 | WARNING  | extract_measurements | Sensor 565 : API returned None
+2026-07-23 15:40:37 | INFO     | extract_measurements | Sensor 44/100 | ID = 593
+2026-07-23 15:40:40 | INFO     | extract_measurements | Sensor 593 | Page 1 | Records 1000
+2026-07-23 15:40:43 | INFO     | extract_measurements | Sensor 593 | Page 2 | Records 1000
+2026-07-23 15:40:47 | INFO     | extract_measurements | Sensor 593 | Page 3 | Records 1000
+2026-07-23 15:40:51 | INFO     | extract_measurements | Sensor 593 | Page 4 | Records 1000
+2026-07-23 15:40:55 | INFO     | extract_measurements | Sensor 593 | Page 5 | Records 1000
+2026-07-23 15:41:00 | INFO     | extract_measurements | Sensor 593 | Page 6 | Records 1000
+2026-07-23 15:41:06 | INFO     | extract_measurements | Sensor 593 | Page 7 | Records 1000
+2026-07-23 15:41:12 | INFO     | extract_measurements | Sensor 593 | Page 8 | Records 1000
+2026-07-23 15:41:18 | INFO     | extract_measurements | Sensor 593 | Page 9 | Records 1000
+2026-07-23 15:41:26 | INFO     | extract_measurements | Sensor 593 | Page 10 | Records 1000
+2026-07-23 15:41:26 | WARNING  | extract_measurements | Sensor 593 reached 10 pages.
+2026-07-23 15:41:26 | INFO     | extract_measurements | Sensor 45/100 | ID = 604
+2026-07-23 15:41:29 | INFO     | extract_measurements | Sensor 604 | Page 1 | Records 1000
+2026-07-23 15:41:32 | INFO     | extract_measurements | Sensor 604 | Page 2 | Records 1000
+2026-07-23 15:41:35 | INFO     | extract_measurements | Sensor 604 | Page 3 | Records 1000
+2026-07-23 15:41:39 | INFO     | extract_measurements | Sensor 604 | Page 4 | Records 1000
+2026-07-23 15:41:42 | INFO     | extract_measurements | Sensor 604 | Page 5 | Records 1000
+2026-07-23 15:41:45 | INFO     | extract_measurements | Sensor 604 | Page 6 | Records 1000
+2026-07-23 15:41:49 | INFO     | extract_measurements | Sensor 604 | Page 7 | Records 1000
+2026-07-23 15:41:54 | INFO     | extract_measurements | Sensor 604 | Page 8 | Records 1000
+2026-07-23 15:41:58 | INFO     | extract_measurements | Sensor 604 | Page 9 | Records 1000
+2026-07-23 15:42:05 | INFO     | extract_measurements | Sensor 604 | Page 10 | Records 1000
+2026-07-23 15:42:05 | WARNING  | extract_measurements | Sensor 604 reached 10 pages.
+2026-07-23 15:42:05 | INFO     | extract_measurements | Sensor 46/100 | ID = 605
+2026-07-23 15:42:06 | INFO     | extract_measurements | Sensor 605 | Page 1 | Records 1000
+2026-07-23 15:42:08 | INFO     | extract_measurements | Sensor 605 | Page 2 | Records 1000
+2026-07-23 15:42:12 | INFO     | extract_measurements | Sensor 605 | Page 3 | Records 1000
+2026-07-23 15:42:14 | INFO     | extract_measurements | Sensor 605 | Page 4 | Records 1000
+2026-07-23 15:42:17 | INFO     | extract_measurements | Sensor 605 | Page 5 | Records 1000
+2026-07-23 15:42:22 | INFO     | extract_measurements | Sensor 605 | Page 6 | Records 1000
+2026-07-23 15:42:27 | INFO     | extract_measurements | Sensor 605 | Page 7 | Records 1000
+2026-07-23 15:42:32 | INFO     | extract_measurements | Sensor 605 | Page 8 | Records 1000
+2026-07-23 15:42:36 | INFO     | extract_measurements | Sensor 605 | Page 9 | Records 1000
+2026-07-23 15:42:43 | INFO     | extract_measurements | Sensor 605 | Page 10 | Records 1000
+2026-07-23 15:42:43 | WARNING  | extract_measurements | Sensor 605 reached 10 pages.
+2026-07-23 15:42:43 | INFO     | extract_measurements | Sensor 47/100 | ID = 606
+2026-07-23 15:42:46 | INFO     | extract_measurements | Sensor 606 | Page 1 | Records 1000
+2026-07-23 15:42:48 | INFO     | extract_measurements | Sensor 606 | Page 2 | Records 1000
+2026-07-23 15:42:50 | INFO     | extract_measurements | Sensor 606 | Page 3 | Records 1000
+2026-07-23 15:43:10 | INFO     | extract_measurements | Sensor 606 | Page 4 | Records 1000
+2026-07-23 15:43:13 | INFO     | extract_measurements | Sensor 606 | Page 5 | Records 1000
+2026-07-23 15:43:16 | INFO     | extract_measurements | Sensor 606 | Page 6 | Records 1000
+2026-07-23 15:43:20 | INFO     | extract_measurements | Sensor 606 | Page 7 | Records 1000
+2026-07-23 15:43:24 | INFO     | extract_measurements | Sensor 606 | Page 8 | Records 1000
+2026-07-23 15:43:30 | INFO     | extract_measurements | Sensor 606 | Page 9 | Records 1000
+2026-07-23 15:43:34 | INFO     | extract_measurements | Sensor 606 | Page 10 | Records 1000
+2026-07-23 15:43:34 | WARNING  | extract_measurements | Sensor 606 reached 10 pages.
+2026-07-23 15:43:34 | INFO     | extract_measurements | Sensor 48/100 | ID = 612
+2026-07-23 15:43:36 | INFO     | extract_measurements | Sensor 612 | Page 1 | Records 1000
+2026-07-23 15:43:38 | INFO     | extract_measurements | Sensor 612 | Page 2 | Records 1000
+2026-07-23 15:43:42 | INFO     | extract_measurements | Sensor 612 | Page 3 | Records 1000
+2026-07-23 15:43:46 | INFO     | extract_measurements | Sensor 612 | Page 4 | Records 1000
+2026-07-23 15:43:52 | INFO     | extract_measurements | Sensor 612 | Page 5 | Records 1000
+2026-07-23 15:43:57 | INFO     | extract_measurements | Sensor 612 | Page 6 | Records 1000
+2026-07-23 15:44:02 | INFO     | extract_measurements | Sensor 612 | Page 7 | Records 1000
+2026-07-23 15:44:08 | INFO     | extract_measurements | Sensor 612 | Page 8 | Records 1000
+2026-07-23 15:44:16 | INFO     | extract_measurements | Sensor 612 | Page 9 | Records 1000
+2026-07-23 15:44:24 | INFO     | extract_measurements | Sensor 612 | Page 10 | Records 1000
+2026-07-23 15:44:24 | WARNING  | extract_measurements | Sensor 612 reached 10 pages.
+2026-07-23 15:44:24 | INFO     | extract_measurements | Sensor 49/100 | ID = 613
+2026-07-23 15:44:27 | INFO     | extract_measurements | Sensor 613 | Page 1 | Records 1000
+2026-07-23 15:44:30 | INFO     | extract_measurements | Sensor 613 | Page 2 | Records 1000
+2026-07-23 15:44:34 | INFO     | extract_measurements | Sensor 613 | Page 3 | Records 1000
+2026-07-23 15:44:39 | INFO     | extract_measurements | Sensor 613 | Page 4 | Records 1000
+2026-07-23 15:44:44 | INFO     | extract_measurements | Sensor 613 | Page 5 | Records 1000
+2026-07-23 15:44:51 | INFO     | extract_measurements | Sensor 613 | Page 6 | Records 1000
+2026-07-23 15:44:57 | INFO     | extract_measurements | Sensor 613 | Page 7 | Records 1000
+2026-07-23 15:45:05 | INFO     | extract_measurements | Sensor 613 | Page 8 | Records 1000
+2026-07-23 15:45:13 | INFO     | extract_measurements | Sensor 613 | Page 9 | Records 1000
+2026-07-23 15:45:20 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/613/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:45:20 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/613/measurements. Skipping this request.
+2026-07-23 15:45:20 | WARNING  | extract_measurements | Sensor 613 : API returned None
+2026-07-23 15:45:20 | INFO     | extract_measurements | Sensor 50/100 | ID = 614
+2026-07-23 15:45:22 | INFO     | extract_measurements | Sensor 614 | Page 1 | Records 1000
+2026-07-23 15:45:25 | INFO     | extract_measurements | Sensor 614 | Page 2 | Records 1000
+2026-07-23 15:45:28 | INFO     | extract_measurements | Sensor 614 | Page 3 | Records 1000
+2026-07-23 15:45:33 | INFO     | extract_measurements | Sensor 614 | Page 4 | Records 1000
+2026-07-23 15:45:38 | INFO     | extract_measurements | Sensor 614 | Page 5 | Records 1000
+2026-07-23 15:45:43 | INFO     | extract_measurements | Sensor 614 | Page 6 | Records 1000
+2026-07-23 15:45:48 | INFO     | extract_measurements | Sensor 614 | Page 7 | Records 1000
+2026-07-23 15:45:55 | INFO     | extract_measurements | Sensor 614 | Page 8 | Records 1000
+2026-07-23 15:46:01 | INFO     | extract_measurements | Sensor 614 | Page 9 | Records 1000
+2026-07-23 15:46:08 | INFO     | extract_measurements | Sensor 614 | Page 10 | Records 1000
+2026-07-23 15:46:08 | WARNING  | extract_measurements | Sensor 614 reached 10 pages.
+2026-07-23 15:46:08 | INFO     | extract_measurements | Sensor 51/100 | ID = 661
+2026-07-23 15:46:09 | INFO     | extract_measurements | Sensor 661 | Page 1 | Records 103
+2026-07-23 15:46:09 | INFO     | extract_measurements | Sensor 52/100 | ID = 710
+2026-07-23 15:46:11 | INFO     | extract_measurements | Sensor 710 | Page 1 | Records 1000
+2026-07-23 15:46:14 | INFO     | extract_measurements | Sensor 710 | Page 2 | Records 1000
+2026-07-23 15:46:17 | INFO     | extract_measurements | Sensor 710 | Page 3 | Records 1000
+2026-07-23 15:46:22 | INFO     | extract_measurements | Sensor 710 | Page 4 | Records 1000
+2026-07-23 15:46:26 | INFO     | extract_measurements | Sensor 710 | Page 5 | Records 1000
+2026-07-23 15:46:31 | INFO     | extract_measurements | Sensor 710 | Page 6 | Records 1000
+2026-07-23 15:46:37 | INFO     | extract_measurements | Sensor 710 | Page 7 | Records 1000
+2026-07-23 15:46:41 | INFO     | extract_measurements | Sensor 710 | Page 8 | Records 1000
+2026-07-23 15:46:47 | INFO     | extract_measurements | Sensor 710 | Page 9 | Records 1000
+2026-07-23 15:46:52 | INFO     | extract_measurements | Sensor 710 | Page 10 | Records 1000
+2026-07-23 15:46:52 | WARNING  | extract_measurements | Sensor 710 reached 10 pages.
+2026-07-23 15:46:52 | INFO     | extract_measurements | Sensor 53/100 | ID = 711
+2026-07-23 15:46:54 | INFO     | extract_measurements | Sensor 711 | Page 1 | Records 1000
+2026-07-23 15:46:58 | INFO     | extract_measurements | Sensor 711 | Page 2 | Records 1000
+2026-07-23 15:47:01 | INFO     | extract_measurements | Sensor 711 | Page 3 | Records 1000
+2026-07-23 15:47:04 | INFO     | extract_measurements | Sensor 711 | Page 4 | Records 1000
+2026-07-23 15:47:07 | INFO     | extract_measurements | Sensor 711 | Page 5 | Records 1000
+2026-07-23 15:47:11 | INFO     | extract_measurements | Sensor 711 | Page 6 | Records 1000
+2026-07-23 15:47:16 | INFO     | extract_measurements | Sensor 711 | Page 7 | Records 1000
+2026-07-23 15:47:22 | INFO     | extract_measurements | Sensor 711 | Page 8 | Records 1000
+2026-07-23 15:47:28 | INFO     | extract_measurements | Sensor 711 | Page 9 | Records 1000
+2026-07-23 15:47:35 | INFO     | extract_measurements | Sensor 711 | Page 10 | Records 1000
+2026-07-23 15:47:35 | WARNING  | extract_measurements | Sensor 711 reached 10 pages.
+2026-07-23 15:47:35 | INFO     | extract_measurements | Sensor 54/100 | ID = 712
+2026-07-23 15:47:38 | INFO     | extract_measurements | Sensor 712 | Page 1 | Records 1000
+2026-07-23 15:47:40 | INFO     | extract_measurements | Sensor 712 | Page 2 | Records 1000
+2026-07-23 15:47:44 | INFO     | extract_measurements | Sensor 712 | Page 3 | Records 1000
+2026-07-23 15:47:48 | INFO     | extract_measurements | Sensor 712 | Page 4 | Records 1000
+2026-07-23 15:47:53 | INFO     | extract_measurements | Sensor 712 | Page 5 | Records 1000
+2026-07-23 15:47:58 | INFO     | extract_measurements | Sensor 712 | Page 6 | Records 1000
+2026-07-23 15:48:04 | INFO     | extract_measurements | Sensor 712 | Page 7 | Records 1000
+2026-07-23 15:48:09 | INFO     | extract_measurements | Sensor 712 | Page 8 | Records 1000
+2026-07-23 15:48:16 | INFO     | extract_measurements | Sensor 712 | Page 9 | Records 1000
+2026-07-23 15:48:22 | INFO     | extract_measurements | Sensor 712 | Page 10 | Records 1000
+2026-07-23 15:48:22 | WARNING  | extract_measurements | Sensor 712 reached 10 pages.
+2026-07-23 15:48:22 | INFO     | extract_measurements | Sensor 55/100 | ID = 713
+2026-07-23 15:48:25 | INFO     | extract_measurements | Sensor 713 | Page 1 | Records 1000
+2026-07-23 15:48:28 | INFO     | extract_measurements | Sensor 713 | Page 2 | Records 1000
+2026-07-23 15:48:31 | INFO     | extract_measurements | Sensor 713 | Page 3 | Records 1000
+2026-07-23 15:48:35 | INFO     | extract_measurements | Sensor 713 | Page 4 | Records 1000
+2026-07-23 15:48:40 | INFO     | extract_measurements | Sensor 713 | Page 5 | Records 1000
+2026-07-23 15:48:44 | INFO     | extract_measurements | Sensor 713 | Page 6 | Records 1000
+2026-07-23 15:48:50 | INFO     | extract_measurements | Sensor 713 | Page 7 | Records 1000
+2026-07-23 15:48:57 | INFO     | extract_measurements | Sensor 713 | Page 8 | Records 1000
+2026-07-23 15:49:03 | INFO     | extract_measurements | Sensor 713 | Page 9 | Records 1000
+2026-07-23 15:49:09 | INFO     | extract_measurements | Sensor 713 | Page 10 | Records 1000
+2026-07-23 15:49:09 | WARNING  | extract_measurements | Sensor 713 reached 10 pages.
+2026-07-23 15:49:09 | INFO     | extract_measurements | Sensor 56/100 | ID = 714
+2026-07-23 15:49:11 | INFO     | extract_measurements | Sensor 714 | Page 1 | Records 1000
+2026-07-23 15:49:14 | INFO     | extract_measurements | Sensor 714 | Page 2 | Records 1000
+2026-07-23 15:49:17 | INFO     | extract_measurements | Sensor 714 | Page 3 | Records 1000
+2026-07-23 15:49:21 | INFO     | extract_measurements | Sensor 714 | Page 4 | Records 1000
+2026-07-23 15:49:25 | INFO     | extract_measurements | Sensor 714 | Page 5 | Records 1000
+2026-07-23 15:49:29 | INFO     | extract_measurements | Sensor 714 | Page 6 | Records 1000
+2026-07-23 15:49:34 | INFO     | extract_measurements | Sensor 714 | Page 7 | Records 1000
+2026-07-23 15:49:40 | INFO     | extract_measurements | Sensor 714 | Page 8 | Records 1000
+2026-07-23 15:49:46 | INFO     | extract_measurements | Sensor 714 | Page 9 | Records 1000
+2026-07-23 15:49:53 | INFO     | extract_measurements | Sensor 714 | Page 10 | Records 1000
+2026-07-23 15:49:53 | WARNING  | extract_measurements | Sensor 714 reached 10 pages.
+2026-07-23 15:49:53 | INFO     | extract_measurements | Sensor 57/100 | ID = 715
+2026-07-23 15:49:56 | INFO     | extract_measurements | Sensor 715 | Page 1 | Records 1000
+2026-07-23 15:49:59 | INFO     | extract_measurements | Sensor 715 | Page 2 | Records 1000
+2026-07-23 15:50:02 | INFO     | extract_measurements | Sensor 715 | Page 3 | Records 1000
+2026-07-23 15:50:05 | INFO     | extract_measurements | Sensor 715 | Page 4 | Records 1000
+2026-07-23 15:50:09 | INFO     | extract_measurements | Sensor 715 | Page 5 | Records 1000
+2026-07-23 15:50:14 | INFO     | extract_measurements | Sensor 715 | Page 6 | Records 1000
+2026-07-23 15:50:19 | INFO     | extract_measurements | Sensor 715 | Page 7 | Records 1000
+2026-07-23 15:50:25 | INFO     | extract_measurements | Sensor 715 | Page 8 | Records 1000
+2026-07-23 15:50:32 | INFO     | extract_measurements | Sensor 715 | Page 9 | Records 1000
+2026-07-23 15:50:37 | INFO     | extract_measurements | Sensor 715 | Page 10 | Records 1000
+2026-07-23 15:50:37 | WARNING  | extract_measurements | Sensor 715 reached 10 pages.
+2026-07-23 15:50:37 | INFO     | extract_measurements | Sensor 58/100 | ID = 722
+2026-07-23 15:50:40 | INFO     | extract_measurements | Sensor 722 | Page 1 | Records 1000
+2026-07-23 15:50:42 | INFO     | extract_measurements | Sensor 722 | Page 2 | Records 1000
+2026-07-23 15:50:44 | INFO     | extract_measurements | Sensor 722 | Page 3 | Records 1000
+2026-07-23 15:50:48 | INFO     | extract_measurements | Sensor 722 | Page 4 | Records 1000
+2026-07-23 15:50:52 | INFO     | extract_measurements | Sensor 722 | Page 5 | Records 1000
+2026-07-23 15:50:55 | INFO     | extract_measurements | Sensor 722 | Page 6 | Records 1000
+2026-07-23 15:51:00 | INFO     | extract_measurements | Sensor 722 | Page 7 | Records 1000
+2026-07-23 15:51:05 | INFO     | extract_measurements | Sensor 722 | Page 8 | Records 1000
+2026-07-23 15:51:09 | INFO     | extract_measurements | Sensor 722 | Page 9 | Records 1000
+2026-07-23 15:51:15 | INFO     | extract_measurements | Sensor 722 | Page 10 | Records 1000
+2026-07-23 15:51:15 | WARNING  | extract_measurements | Sensor 722 reached 10 pages.
+2026-07-23 15:51:15 | INFO     | extract_measurements | Sensor 59/100 | ID = 747
+2026-07-23 15:51:17 | INFO     | extract_measurements | Sensor 747 | Page 1 | Records 1000
+2026-07-23 15:51:19 | INFO     | extract_measurements | Sensor 747 | Page 2 | Records 1000
+2026-07-23 15:51:22 | INFO     | extract_measurements | Sensor 747 | Page 3 | Records 1000
+2026-07-23 15:51:27 | INFO     | extract_measurements | Sensor 747 | Page 4 | Records 1000
+2026-07-23 15:51:31 | INFO     | extract_measurements | Sensor 747 | Page 5 | Records 1000
+2026-07-23 15:51:35 | INFO     | extract_measurements | Sensor 747 | Page 6 | Records 1000
+2026-07-23 15:51:39 | INFO     | extract_measurements | Sensor 747 | Page 7 | Records 1000
+2026-07-23 15:51:45 | INFO     | extract_measurements | Sensor 747 | Page 8 | Records 1000
+2026-07-23 15:51:50 | INFO     | extract_measurements | Sensor 747 | Page 9 | Records 1000
+2026-07-23 15:51:56 | INFO     | extract_measurements | Sensor 747 | Page 10 | Records 1000
+2026-07-23 15:51:56 | WARNING  | extract_measurements | Sensor 747 reached 10 pages.
+2026-07-23 15:51:56 | INFO     | extract_measurements | Sensor 60/100 | ID = 1048
+2026-07-23 15:51:58 | INFO     | extract_measurements | Sensor 1048 | Page 1 | Records 1000
+2026-07-23 15:52:01 | INFO     | extract_measurements | Sensor 1048 | Page 2 | Records 1000
+2026-07-23 15:52:03 | INFO     | extract_measurements | Sensor 1048 | Page 3 | Records 1000
+2026-07-23 15:52:07 | INFO     | extract_measurements | Sensor 1048 | Page 4 | Records 1000
+2026-07-23 15:52:11 | INFO     | extract_measurements | Sensor 1048 | Page 5 | Records 1000
+2026-07-23 15:52:15 | INFO     | extract_measurements | Sensor 1048 | Page 6 | Records 1000
+2026-07-23 15:52:19 | INFO     | extract_measurements | Sensor 1048 | Page 7 | Records 1000
+2026-07-23 15:52:24 | INFO     | extract_measurements | Sensor 1048 | Page 8 | Records 1000
+2026-07-23 15:52:30 | INFO     | extract_measurements | Sensor 1048 | Page 9 | Records 1000
+2026-07-23 15:52:35 | INFO     | extract_measurements | Sensor 1048 | Page 10 | Records 1000
+2026-07-23 15:52:35 | WARNING  | extract_measurements | Sensor 1048 reached 10 pages.
+2026-07-23 15:52:35 | INFO     | extract_measurements | Sensor 61/100 | ID = 1166
+2026-07-23 15:52:38 | INFO     | extract_measurements | Sensor 1166 | Page 1 | Records 1000
+2026-07-23 15:52:41 | INFO     | extract_measurements | Sensor 1166 | Page 2 | Records 1000
+2026-07-23 15:52:45 | INFO     | extract_measurements | Sensor 1166 | Page 3 | Records 1000
+2026-07-23 15:52:51 | INFO     | extract_measurements | Sensor 1166 | Page 4 | Records 1000
+2026-07-23 15:52:58 | INFO     | extract_measurements | Sensor 1166 | Page 5 | Records 1000
+2026-07-23 15:53:05 | INFO     | extract_measurements | Sensor 1166 | Page 6 | Records 1000
+2026-07-23 15:53:14 | INFO     | extract_measurements | Sensor 1166 | Page 7 | Records 1000
+2026-07-23 15:53:20 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1166/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 15:53:20 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1166/measurements. Skipping this request.
+2026-07-23 15:53:20 | WARNING  | extract_measurements | Sensor 1166 : API returned None
+2026-07-23 15:53:20 | INFO     | extract_measurements | Sensor 62/100 | ID = 1205
+2026-07-23 15:53:21 | INFO     | extract_measurements | Sensor 1205 | Page 1 | Records 1000
+2026-07-23 15:53:23 | INFO     | extract_measurements | Sensor 1205 | Page 2 | Records 1000
+2026-07-23 15:53:27 | INFO     | extract_measurements | Sensor 1205 | Page 3 | Records 1000
+2026-07-23 15:53:30 | INFO     | extract_measurements | Sensor 1205 | Page 4 | Records 1000
+2026-07-23 15:53:34 | INFO     | extract_measurements | Sensor 1205 | Page 5 | Records 1000
+2026-07-23 15:53:38 | INFO     | extract_measurements | Sensor 1205 | Page 6 | Records 1000
+2026-07-23 15:53:43 | INFO     | extract_measurements | Sensor 1205 | Page 7 | Records 1000
+2026-07-23 15:53:47 | INFO     | extract_measurements | Sensor 1205 | Page 8 | Records 1000
+2026-07-23 15:53:53 | INFO     | extract_measurements | Sensor 1205 | Page 9 | Records 1000
+2026-07-23 15:53:57 | INFO     | extract_measurements | Sensor 1205 | Page 10 | Records 1000
+2026-07-23 15:53:57 | WARNING  | extract_measurements | Sensor 1205 reached 10 pages.
+2026-07-23 15:53:57 | INFO     | extract_measurements | Sensor 63/100 | ID = 1206
+2026-07-23 15:53:58 | INFO     | extract_measurements | Sensor 1206 | Page 1 | Records 1000
+2026-07-23 15:54:01 | INFO     | extract_measurements | Sensor 1206 | Page 2 | Records 1000
+2026-07-23 15:54:04 | INFO     | extract_measurements | Sensor 1206 | Page 3 | Records 1000
+2026-07-23 15:54:07 | INFO     | extract_measurements | Sensor 1206 | Page 4 | Records 1000
+2026-07-23 15:54:11 | INFO     | extract_measurements | Sensor 1206 | Page 5 | Records 1000
+2026-07-23 15:54:16 | INFO     | extract_measurements | Sensor 1206 | Page 6 | Records 1000
+2026-07-23 15:54:19 | INFO     | extract_measurements | Sensor 1206 | Page 7 | Records 1000
+2026-07-23 15:54:23 | INFO     | extract_measurements | Sensor 1206 | Page 8 | Records 1000
+2026-07-23 15:54:28 | INFO     | extract_measurements | Sensor 1206 | Page 9 | Records 1000
+2026-07-23 15:54:34 | INFO     | extract_measurements | Sensor 1206 | Page 10 | Records 1000
+2026-07-23 15:54:34 | WARNING  | extract_measurements | Sensor 1206 reached 10 pages.
+2026-07-23 15:54:34 | INFO     | extract_measurements | Sensor 64/100 | ID = 1207
+2026-07-23 15:54:35 | INFO     | extract_measurements | Sensor 1207 | Page 1 | Records 1000
+2026-07-23 15:54:37 | INFO     | extract_measurements | Sensor 1207 | Page 2 | Records 1000
+2026-07-23 15:54:41 | INFO     | extract_measurements | Sensor 1207 | Page 3 | Records 1000
+2026-07-23 15:54:44 | INFO     | extract_measurements | Sensor 1207 | Page 4 | Records 1000
+2026-07-23 15:54:47 | INFO     | extract_measurements | Sensor 1207 | Page 5 | Records 1000
+2026-07-23 15:54:50 | INFO     | extract_measurements | Sensor 1207 | Page 6 | Records 1000
+2026-07-23 15:54:54 | INFO     | extract_measurements | Sensor 1207 | Page 7 | Records 1000
+2026-07-23 15:54:59 | INFO     | extract_measurements | Sensor 1207 | Page 8 | Records 1000
+2026-07-23 15:55:04 | INFO     | extract_measurements | Sensor 1207 | Page 9 | Records 1000
+2026-07-23 15:55:08 | INFO     | extract_measurements | Sensor 1207 | Page 10 | Records 1000
+2026-07-23 15:55:08 | WARNING  | extract_measurements | Sensor 1207 reached 10 pages.
+2026-07-23 15:55:08 | INFO     | extract_measurements | Sensor 65/100 | ID = 1208
+2026-07-23 15:55:09 | INFO     | extract_measurements | Sensor 1208 | Page 1 | Records 1000
+2026-07-23 15:55:12 | INFO     | extract_measurements | Sensor 1208 | Page 2 | Records 1000
+2026-07-23 15:55:15 | INFO     | extract_measurements | Sensor 1208 | Page 3 | Records 1000
+2026-07-23 15:55:19 | INFO     | extract_measurements | Sensor 1208 | Page 4 | Records 1000
+2026-07-23 15:55:24 | INFO     | extract_measurements | Sensor 1208 | Page 5 | Records 1000
+2026-07-23 15:55:27 | INFO     | extract_measurements | Sensor 1208 | Page 6 | Records 1000
+2026-07-23 15:55:31 | INFO     | extract_measurements | Sensor 1208 | Page 7 | Records 1000
+2026-07-23 15:55:34 | INFO     | extract_measurements | Sensor 1208 | Page 8 | Records 1000
+2026-07-23 15:55:40 | INFO     | extract_measurements | Sensor 1208 | Page 9 | Records 1000
+2026-07-23 15:55:45 | INFO     | extract_measurements | Sensor 1208 | Page 10 | Records 1000
+2026-07-23 15:55:45 | WARNING  | extract_measurements | Sensor 1208 reached 10 pages.
+2026-07-23 15:55:45 | INFO     | extract_measurements | Sensor 66/100 | ID = 1209
+2026-07-23 15:55:46 | INFO     | extract_measurements | Sensor 1209 | Page 1 | Records 1000
+2026-07-23 15:55:48 | INFO     | extract_measurements | Sensor 1209 | Page 2 | Records 1000
+2026-07-23 15:55:51 | INFO     | extract_measurements | Sensor 1209 | Page 3 | Records 1000
+2026-07-23 15:55:54 | INFO     | extract_measurements | Sensor 1209 | Page 4 | Records 1000
+2026-07-23 15:55:58 | INFO     | extract_measurements | Sensor 1209 | Page 5 | Records 1000
+2026-07-23 15:56:02 | INFO     | extract_measurements | Sensor 1209 | Page 6 | Records 1000
+2026-07-23 15:56:07 | INFO     | extract_measurements | Sensor 1209 | Page 7 | Records 1000
+2026-07-23 15:56:12 | INFO     | extract_measurements | Sensor 1209 | Page 8 | Records 1000
+2026-07-23 15:56:17 | INFO     | extract_measurements | Sensor 1209 | Page 9 | Records 1000
+2026-07-23 15:56:23 | INFO     | extract_measurements | Sensor 1209 | Page 10 | Records 1000
+2026-07-23 15:56:23 | WARNING  | extract_measurements | Sensor 1209 reached 10 pages.
+2026-07-23 15:56:23 | INFO     | extract_measurements | Sensor 67/100 | ID = 1220
+2026-07-23 15:56:24 | INFO     | extract_measurements | Sensor 1220 | Page 1 | Records 1000
+2026-07-23 15:56:26 | INFO     | extract_measurements | Sensor 1220 | Page 2 | Records 1000
+2026-07-23 15:56:30 | INFO     | extract_measurements | Sensor 1220 | Page 3 | Records 1000
+2026-07-23 15:56:33 | INFO     | extract_measurements | Sensor 1220 | Page 4 | Records 1000
+2026-07-23 15:56:37 | INFO     | extract_measurements | Sensor 1220 | Page 5 | Records 1000
+2026-07-23 15:56:41 | INFO     | extract_measurements | Sensor 1220 | Page 6 | Records 1000
+2026-07-23 15:56:45 | INFO     | extract_measurements | Sensor 1220 | Page 7 | Records 1000
+2026-07-23 15:56:49 | INFO     | extract_measurements | Sensor 1220 | Page 8 | Records 1000
+2026-07-23 15:56:55 | INFO     | extract_measurements | Sensor 1220 | Page 9 | Records 1000
+2026-07-23 15:57:01 | INFO     | extract_measurements | Sensor 1220 | Page 10 | Records 1000
+2026-07-23 15:57:01 | WARNING  | extract_measurements | Sensor 1220 reached 10 pages.
+2026-07-23 15:57:01 | INFO     | extract_measurements | Sensor 68/100 | ID = 1222
+2026-07-23 15:57:02 | INFO     | extract_measurements | Sensor 1222 | Page 1 | Records 1000
+2026-07-23 15:57:04 | INFO     | extract_measurements | Sensor 1222 | Page 2 | Records 1000
+2026-07-23 15:57:08 | INFO     | extract_measurements | Sensor 1222 | Page 3 | Records 1000
+2026-07-23 15:57:11 | INFO     | extract_measurements | Sensor 1222 | Page 4 | Records 1000
+2026-07-23 15:57:15 | INFO     | extract_measurements | Sensor 1222 | Page 5 | Records 1000
+2026-07-23 15:57:19 | INFO     | extract_measurements | Sensor 1222 | Page 6 | Records 1000
+2026-07-23 15:57:23 | INFO     | extract_measurements | Sensor 1222 | Page 7 | Records 1000
+2026-07-23 15:57:29 | INFO     | extract_measurements | Sensor 1222 | Page 8 | Records 1000
+2026-07-23 15:57:33 | INFO     | extract_measurements | Sensor 1222 | Page 9 | Records 1000
+2026-07-23 15:57:38 | INFO     | extract_measurements | Sensor 1222 | Page 10 | Records 1000
+2026-07-23 15:57:38 | WARNING  | extract_measurements | Sensor 1222 reached 10 pages.
+2026-07-23 15:57:38 | INFO     | extract_measurements | Sensor 69/100 | ID = 1223
+2026-07-23 15:57:40 | INFO     | extract_measurements | Sensor 1223 | Page 1 | Records 1000
+2026-07-23 15:57:42 | INFO     | extract_measurements | Sensor 1223 | Page 2 | Records 1000
+2026-07-23 15:57:46 | INFO     | extract_measurements | Sensor 1223 | Page 3 | Records 1000
+2026-07-23 15:57:48 | INFO     | extract_measurements | Sensor 1223 | Page 4 | Records 1000
+2026-07-23 15:57:53 | INFO     | extract_measurements | Sensor 1223 | Page 5 | Records 1000
+2026-07-23 15:57:57 | INFO     | extract_measurements | Sensor 1223 | Page 6 | Records 1000
+2026-07-23 15:58:01 | INFO     | extract_measurements | Sensor 1223 | Page 7 | Records 336
+2026-07-23 15:58:01 | INFO     | extract_measurements | Sensor 70/100 | ID = 1224
+2026-07-23 15:58:02 | INFO     | extract_measurements | Sensor 1224 | Page 1 | Records 1000
+2026-07-23 15:58:05 | INFO     | extract_measurements | Sensor 1224 | Page 2 | Records 1000
+2026-07-23 15:58:09 | INFO     | extract_measurements | Sensor 1224 | Page 3 | Records 1000
+2026-07-23 15:58:13 | INFO     | extract_measurements | Sensor 1224 | Page 4 | Records 1000
+2026-07-23 15:58:17 | INFO     | extract_measurements | Sensor 1224 | Page 5 | Records 1000
+2026-07-23 15:58:21 | INFO     | extract_measurements | Sensor 1224 | Page 6 | Records 1000
+2026-07-23 15:58:27 | INFO     | extract_measurements | Sensor 1224 | Page 7 | Records 1000
+2026-07-23 15:58:33 | INFO     | extract_measurements | Sensor 1224 | Page 8 | Records 1000
+2026-07-23 15:58:37 | INFO     | extract_measurements | Sensor 1224 | Page 9 | Records 1000
+2026-07-23 15:58:43 | INFO     | extract_measurements | Sensor 1224 | Page 10 | Records 1000
+2026-07-23 15:58:43 | WARNING  | extract_measurements | Sensor 1224 reached 10 pages.
+2026-07-23 15:58:43 | INFO     | extract_measurements | Sensor 71/100 | ID = 1225
+2026-07-23 15:58:45 | INFO     | extract_measurements | Sensor 1225 | Page 1 | Records 1000
+2026-07-23 15:58:48 | INFO     | extract_measurements | Sensor 1225 | Page 2 | Records 1000
+2026-07-23 15:58:50 | INFO     | extract_measurements | Sensor 1225 | Page 3 | Records 1000
+2026-07-23 15:58:54 | INFO     | extract_measurements | Sensor 1225 | Page 4 | Records 1000
+2026-07-23 15:58:59 | INFO     | extract_measurements | Sensor 1225 | Page 5 | Records 1000
+2026-07-23 15:59:02 | INFO     | extract_measurements | Sensor 1225 | Page 6 | Records 1000
+2026-07-23 15:59:06 | INFO     | extract_measurements | Sensor 1225 | Page 7 | Records 1000
+2026-07-23 15:59:12 | INFO     | extract_measurements | Sensor 1225 | Page 8 | Records 1000
+2026-07-23 15:59:16 | INFO     | extract_measurements | Sensor 1225 | Page 9 | Records 1000
+2026-07-23 15:59:22 | INFO     | extract_measurements | Sensor 1225 | Page 10 | Records 1000
+2026-07-23 15:59:22 | WARNING  | extract_measurements | Sensor 1225 reached 10 pages.
+2026-07-23 15:59:22 | INFO     | extract_measurements | Sensor 72/100 | ID = 1226
+2026-07-23 15:59:23 | INFO     | extract_measurements | Sensor 1226 | Page 1 | Records 1000
+2026-07-23 15:59:27 | INFO     | extract_measurements | Sensor 1226 | Page 2 | Records 1000
+2026-07-23 15:59:29 | INFO     | extract_measurements | Sensor 1226 | Page 3 | Records 1000
+2026-07-23 15:59:33 | INFO     | extract_measurements | Sensor 1226 | Page 4 | Records 1000
+2026-07-23 15:59:36 | INFO     | extract_measurements | Sensor 1226 | Page 5 | Records 1000
+2026-07-23 15:59:40 | INFO     | extract_measurements | Sensor 1226 | Page 6 | Records 1000
+2026-07-23 15:59:45 | INFO     | extract_measurements | Sensor 1226 | Page 7 | Records 1000
+2026-07-23 15:59:50 | INFO     | extract_measurements | Sensor 1226 | Page 8 | Records 1000
+2026-07-23 15:59:56 | INFO     | extract_measurements | Sensor 1226 | Page 9 | Records 1000
+2026-07-23 16:00:02 | INFO     | extract_measurements | Sensor 1226 | Page 10 | Records 1000
+2026-07-23 16:00:02 | WARNING  | extract_measurements | Sensor 1226 reached 10 pages.
+2026-07-23 16:00:02 | INFO     | extract_measurements | Sensor 73/100 | ID = 1241
+2026-07-23 16:00:03 | INFO     | extract_measurements | Sensor 1241 | Page 1 | Records 1000
+2026-07-23 16:00:06 | INFO     | extract_measurements | Sensor 1241 | Page 2 | Records 1000
+2026-07-23 16:00:09 | INFO     | extract_measurements | Sensor 1241 | Page 3 | Records 1000
+2026-07-23 16:00:13 | INFO     | extract_measurements | Sensor 1241 | Page 4 | Records 1000
+2026-07-23 16:00:16 | INFO     | extract_measurements | Sensor 1241 | Page 5 | Records 1000
+2026-07-23 16:00:20 | INFO     | extract_measurements | Sensor 1241 | Page 6 | Records 1000
+2026-07-23 16:00:24 | INFO     | extract_measurements | Sensor 1241 | Page 7 | Records 1000
+2026-07-23 16:00:29 | INFO     | extract_measurements | Sensor 1241 | Page 8 | Records 894
+2026-07-23 16:00:29 | INFO     | extract_measurements | Sensor 74/100 | ID = 1242
+2026-07-23 16:00:30 | INFO     | extract_measurements | Sensor 1242 | Page 1 | Records 1
+2026-07-23 16:00:30 | INFO     | extract_measurements | Sensor 75/100 | ID = 1382
+2026-07-23 16:00:32 | INFO     | extract_measurements | Sensor 1382 | Page 1 | Records 1000
+2026-07-23 16:00:36 | INFO     | extract_measurements | Sensor 1382 | Page 2 | Records 1000
+2026-07-23 16:00:38 | INFO     | extract_measurements | Sensor 1382 | Page 3 | Records 1000
+2026-07-23 16:00:42 | INFO     | extract_measurements | Sensor 1382 | Page 4 | Records 1000
+2026-07-23 16:00:44 | INFO     | extract_measurements | Sensor 1382 | Page 5 | Records 1000
+2026-07-23 16:00:49 | INFO     | extract_measurements | Sensor 1382 | Page 6 | Records 1000
+2026-07-23 16:00:54 | INFO     | extract_measurements | Sensor 1382 | Page 7 | Records 1000
+2026-07-23 16:00:58 | INFO     | extract_measurements | Sensor 1382 | Page 8 | Records 1000
+2026-07-23 16:01:02 | INFO     | extract_measurements | Sensor 1382 | Page 9 | Records 1000
+2026-07-23 16:01:07 | INFO     | extract_measurements | Sensor 1382 | Page 10 | Records 1000
+2026-07-23 16:01:07 | WARNING  | extract_measurements | Sensor 1382 reached 10 pages.
+2026-07-23 16:01:07 | INFO     | extract_measurements | Sensor 76/100 | ID = 1383
+2026-07-23 16:01:09 | INFO     | extract_measurements | Sensor 1383 | Page 1 | Records 1000
+2026-07-23 16:01:11 | INFO     | extract_measurements | Sensor 1383 | Page 2 | Records 1000
+2026-07-23 16:01:15 | INFO     | extract_measurements | Sensor 1383 | Page 3 | Records 1000
+2026-07-23 16:01:18 | INFO     | extract_measurements | Sensor 1383 | Page 4 | Records 1000
+2026-07-23 16:01:22 | INFO     | extract_measurements | Sensor 1383 | Page 5 | Records 1000
+2026-07-23 16:01:26 | INFO     | extract_measurements | Sensor 1383 | Page 6 | Records 1000
+2026-07-23 16:01:29 | INFO     | extract_measurements | Sensor 1383 | Page 7 | Records 1000
+2026-07-23 16:01:35 | INFO     | extract_measurements | Sensor 1383 | Page 8 | Records 1000
+2026-07-23 16:01:41 | INFO     | extract_measurements | Sensor 1383 | Page 9 | Records 1000
+2026-07-23 16:01:45 | INFO     | extract_measurements | Sensor 1383 | Page 10 | Records 1000
+2026-07-23 16:01:45 | WARNING  | extract_measurements | Sensor 1383 reached 10 pages.
+2026-07-23 16:01:45 | INFO     | extract_measurements | Sensor 77/100 | ID = 1384
+2026-07-23 16:01:47 | INFO     | extract_measurements | Sensor 1384 | Page 1 | Records 1000
+2026-07-23 16:01:48 | INFO     | extract_measurements | Sensor 1384 | Page 2 | Records 1000
+2026-07-23 16:01:52 | INFO     | extract_measurements | Sensor 1384 | Page 3 | Records 1000
+2026-07-23 16:01:59 | INFO     | extract_measurements | Sensor 1384 | Page 4 | Records 1000
+2026-07-23 16:02:03 | INFO     | extract_measurements | Sensor 1384 | Page 5 | Records 1000
+2026-07-23 16:02:07 | INFO     | extract_measurements | Sensor 1384 | Page 6 | Records 1000
+2026-07-23 16:02:12 | INFO     | extract_measurements | Sensor 1384 | Page 7 | Records 1000
+2026-07-23 16:02:17 | INFO     | extract_measurements | Sensor 1384 | Page 8 | Records 1000
+2026-07-23 16:02:21 | INFO     | extract_measurements | Sensor 1384 | Page 9 | Records 1000
+2026-07-23 16:02:27 | INFO     | extract_measurements | Sensor 1384 | Page 10 | Records 1000
+2026-07-23 16:02:27 | WARNING  | extract_measurements | Sensor 1384 reached 10 pages.
+2026-07-23 16:02:27 | INFO     | extract_measurements | Sensor 78/100 | ID = 1427
+2026-07-23 16:02:30 | INFO     | extract_measurements | Sensor 1427 | Page 1 | Records 1000
+2026-07-23 16:02:32 | INFO     | extract_measurements | Sensor 1427 | Page 2 | Records 1000
+2026-07-23 16:02:35 | INFO     | extract_measurements | Sensor 1427 | Page 3 | Records 1000
+2026-07-23 16:02:38 | INFO     | extract_measurements | Sensor 1427 | Page 4 | Records 1000
+2026-07-23 16:02:43 | INFO     | extract_measurements | Sensor 1427 | Page 5 | Records 1000
+2026-07-23 16:02:48 | INFO     | extract_measurements | Sensor 1427 | Page 6 | Records 1000
+2026-07-23 16:02:52 | INFO     | extract_measurements | Sensor 1427 | Page 7 | Records 1000
+2026-07-23 16:02:56 | INFO     | extract_measurements | Sensor 1427 | Page 8 | Records 1000
+2026-07-23 16:03:02 | INFO     | extract_measurements | Sensor 1427 | Page 9 | Records 1000
+2026-07-23 16:03:07 | INFO     | extract_measurements | Sensor 1427 | Page 10 | Records 1000
+2026-07-23 16:03:07 | WARNING  | extract_measurements | Sensor 1427 reached 10 pages.
+2026-07-23 16:03:07 | INFO     | extract_measurements | Sensor 79/100 | ID = 1518
+2026-07-23 16:03:10 | INFO     | extract_measurements | Sensor 1518 | Page 1 | Records 1000
+2026-07-23 16:03:12 | INFO     | extract_measurements | Sensor 1518 | Page 2 | Records 1000
+2026-07-23 16:03:16 | INFO     | extract_measurements | Sensor 1518 | Page 3 | Records 1000
+2026-07-23 16:03:20 | INFO     | extract_measurements | Sensor 1518 | Page 4 | Records 1000
+2026-07-23 16:03:24 | INFO     | extract_measurements | Sensor 1518 | Page 5 | Records 1000
+2026-07-23 16:03:29 | INFO     | extract_measurements | Sensor 1518 | Page 6 | Records 1000
+2026-07-23 16:03:33 | INFO     | extract_measurements | Sensor 1518 | Page 7 | Records 1000
+2026-07-23 16:03:37 | INFO     | extract_measurements | Sensor 1518 | Page 8 | Records 1000
+2026-07-23 16:03:42 | INFO     | extract_measurements | Sensor 1518 | Page 9 | Records 1000
+2026-07-23 16:03:47 | INFO     | extract_measurements | Sensor 1518 | Page 10 | Records 1000
+2026-07-23 16:03:47 | WARNING  | extract_measurements | Sensor 1518 reached 10 pages.
+2026-07-23 16:03:47 | INFO     | extract_measurements | Sensor 80/100 | ID = 1524
+2026-07-23 16:03:49 | INFO     | extract_measurements | Sensor 1524 | Page 1 | Records 1000
+2026-07-23 16:03:51 | INFO     | extract_measurements | Sensor 1524 | Page 2 | Records 1000
+2026-07-23 16:03:55 | INFO     | extract_measurements | Sensor 1524 | Page 3 | Records 1000
+2026-07-23 16:03:58 | INFO     | extract_measurements | Sensor 1524 | Page 4 | Records 1000
+2026-07-23 16:04:02 | INFO     | extract_measurements | Sensor 1524 | Page 5 | Records 1000
+2026-07-23 16:04:06 | INFO     | extract_measurements | Sensor 1524 | Page 6 | Records 1000
+2026-07-23 16:04:10 | INFO     | extract_measurements | Sensor 1524 | Page 7 | Records 1000
+2026-07-23 16:04:16 | INFO     | extract_measurements | Sensor 1524 | Page 8 | Records 1000
+2026-07-23 16:04:22 | INFO     | extract_measurements | Sensor 1524 | Page 9 | Records 1000
+2026-07-23 16:04:28 | INFO     | extract_measurements | Sensor 1524 | Page 10 | Records 1000
+2026-07-23 16:04:28 | WARNING  | extract_measurements | Sensor 1524 reached 10 pages.
+2026-07-23 16:04:29 | INFO     | extract_measurements | Sensor 81/100 | ID = 1525
+2026-07-23 16:04:30 | INFO     | extract_measurements | Sensor 1525 | Page 1 | Records 1000
+2026-07-23 16:04:33 | INFO     | extract_measurements | Sensor 1525 | Page 2 | Records 1000
+2026-07-23 16:04:36 | INFO     | extract_measurements | Sensor 1525 | Page 3 | Records 1000
+2026-07-23 16:04:39 | INFO     | extract_measurements | Sensor 1525 | Page 4 | Records 1000
+2026-07-23 16:04:43 | INFO     | extract_measurements | Sensor 1525 | Page 5 | Records 1000
+2026-07-23 16:04:48 | INFO     | extract_measurements | Sensor 1525 | Page 6 | Records 1000
+2026-07-23 16:04:52 | INFO     | extract_measurements | Sensor 1525 | Page 7 | Records 1000
+2026-07-23 16:04:57 | INFO     | extract_measurements | Sensor 1525 | Page 8 | Records 1000
+2026-07-23 16:05:02 | INFO     | extract_measurements | Sensor 1525 | Page 9 | Records 1000
+2026-07-23 16:05:09 | INFO     | extract_measurements | Sensor 1525 | Page 10 | Records 1000
+2026-07-23 16:05:09 | WARNING  | extract_measurements | Sensor 1525 reached 10 pages.
+2026-07-23 16:05:09 | INFO     | extract_measurements | Sensor 82/100 | ID = 1526
+2026-07-23 16:05:10 | INFO     | extract_measurements | Sensor 1526 | Page 1 | Records 1000
+2026-07-23 16:05:13 | INFO     | extract_measurements | Sensor 1526 | Page 2 | Records 1000
+2026-07-23 16:05:16 | INFO     | extract_measurements | Sensor 1526 | Page 3 | Records 1000
+2026-07-23 16:05:19 | INFO     | extract_measurements | Sensor 1526 | Page 4 | Records 1000
+2026-07-23 16:05:24 | INFO     | extract_measurements | Sensor 1526 | Page 5 | Records 1000
+2026-07-23 16:05:27 | INFO     | extract_measurements | Sensor 1526 | Page 6 | Records 1000
+2026-07-23 16:05:33 | INFO     | extract_measurements | Sensor 1526 | Page 7 | Records 1000
+2026-07-23 16:05:38 | INFO     | extract_measurements | Sensor 1526 | Page 8 | Records 1000
+2026-07-23 16:05:43 | INFO     | extract_measurements | Sensor 1526 | Page 9 | Records 1000
+2026-07-23 16:05:49 | INFO     | extract_measurements | Sensor 1526 | Page 10 | Records 1000
+2026-07-23 16:05:49 | WARNING  | extract_measurements | Sensor 1526 reached 10 pages.
+2026-07-23 16:05:49 | INFO     | extract_measurements | Sensor 83/100 | ID = 1527
+2026-07-23 16:05:51 | INFO     | extract_measurements | Sensor 1527 | Page 1 | Records 1000
+2026-07-23 16:05:54 | INFO     | extract_measurements | Sensor 1527 | Page 2 | Records 1000
+2026-07-23 16:05:57 | INFO     | extract_measurements | Sensor 1527 | Page 3 | Records 1000
+2026-07-23 16:06:00 | INFO     | extract_measurements | Sensor 1527 | Page 4 | Records 1000
+2026-07-23 16:06:05 | INFO     | extract_measurements | Sensor 1527 | Page 5 | Records 1000
+2026-07-23 16:06:13 | INFO     | extract_measurements | Sensor 1527 | Page 6 | Records 1000
+2026-07-23 16:06:19 | INFO     | extract_measurements | Sensor 1527 | Page 7 | Records 1000
+2026-07-23 16:06:25 | INFO     | extract_measurements | Sensor 1527 | Page 8 | Records 1000
+2026-07-23 16:06:32 | INFO     | extract_measurements | Sensor 1527 | Page 9 | Records 1000
+2026-07-23 16:06:38 | INFO     | extract_measurements | Sensor 1527 | Page 10 | Records 1000
+2026-07-23 16:06:38 | WARNING  | extract_measurements | Sensor 1527 reached 10 pages.
+2026-07-23 16:06:38 | INFO     | extract_measurements | Sensor 84/100 | ID = 1528
+2026-07-23 16:06:39 | INFO     | extract_measurements | Sensor 1528 | Page 1 | Records 1000
+2026-07-23 16:06:41 | INFO     | extract_measurements | Sensor 1528 | Page 2 | Records 1000
+2026-07-23 16:06:45 | INFO     | extract_measurements | Sensor 1528 | Page 3 | Records 1000
+2026-07-23 16:06:48 | INFO     | extract_measurements | Sensor 1528 | Page 4 | Records 1000
+2026-07-23 16:06:53 | INFO     | extract_measurements | Sensor 1528 | Page 5 | Records 1000
+2026-07-23 16:06:57 | INFO     | extract_measurements | Sensor 1528 | Page 6 | Records 1000
+2026-07-23 16:07:02 | INFO     | extract_measurements | Sensor 1528 | Page 7 | Records 1000
+2026-07-23 16:07:08 | INFO     | extract_measurements | Sensor 1528 | Page 8 | Records 1000
+2026-07-23 16:07:14 | INFO     | extract_measurements | Sensor 1528 | Page 9 | Records 1000
+2026-07-23 16:07:20 | INFO     | extract_measurements | Sensor 1528 | Page 10 | Records 1000
+2026-07-23 16:07:20 | WARNING  | extract_measurements | Sensor 1528 reached 10 pages.
+2026-07-23 16:07:20 | INFO     | extract_measurements | Sensor 85/100 | ID = 1529
+2026-07-23 16:07:23 | INFO     | extract_measurements | Sensor 1529 | Page 1 | Records 1000
+2026-07-23 16:07:24 | INFO     | extract_measurements | Sensor 1529 | Page 2 | Records 1000
+2026-07-23 16:07:27 | INFO     | extract_measurements | Sensor 1529 | Page 3 | Records 1000
+2026-07-23 16:07:47 | INFO     | extract_measurements | Sensor 1529 | Page 4 | Records 1000
+2026-07-23 16:07:50 | INFO     | extract_measurements | Sensor 1529 | Page 5 | Records 1000
+2026-07-23 16:07:55 | INFO     | extract_measurements | Sensor 1529 | Page 6 | Records 1000
+2026-07-23 16:07:59 | INFO     | extract_measurements | Sensor 1529 | Page 7 | Records 1000
+2026-07-23 16:08:05 | INFO     | extract_measurements | Sensor 1529 | Page 8 | Records 1000
+2026-07-23 16:08:10 | INFO     | extract_measurements | Sensor 1529 | Page 9 | Records 1000
+2026-07-23 16:08:16 | INFO     | extract_measurements | Sensor 1529 | Page 10 | Records 1000
+2026-07-23 16:08:16 | WARNING  | extract_measurements | Sensor 1529 reached 10 pages.
+2026-07-23 16:08:16 | INFO     | extract_measurements | Sensor 86/100 | ID = 1544
+2026-07-23 16:08:19 | INFO     | extract_measurements | Sensor 1544 | Page 1 | Records 1000
+2026-07-23 16:08:22 | INFO     | extract_measurements | Sensor 1544 | Page 2 | Records 1000
+2026-07-23 16:08:25 | INFO     | extract_measurements | Sensor 1544 | Page 3 | Records 1000
+2026-07-23 16:08:29 | INFO     | extract_measurements | Sensor 1544 | Page 4 | Records 1000
+2026-07-23 16:08:34 | INFO     | extract_measurements | Sensor 1544 | Page 5 | Records 1000
+2026-07-23 16:08:40 | INFO     | extract_measurements | Sensor 1544 | Page 6 | Records 1000
+2026-07-23 16:08:45 | INFO     | extract_measurements | Sensor 1544 | Page 7 | Records 1000
+2026-07-23 16:08:50 | INFO     | extract_measurements | Sensor 1544 | Page 8 | Records 1000
+2026-07-23 16:08:57 | INFO     | extract_measurements | Sensor 1544 | Page 9 | Records 1000
+2026-07-23 16:09:04 | INFO     | extract_measurements | Sensor 1544 | Page 10 | Records 1000
+2026-07-23 16:09:04 | WARNING  | extract_measurements | Sensor 1544 reached 10 pages.
+2026-07-23 16:09:04 | INFO     | extract_measurements | Sensor 87/100 | ID = 1545
+2026-07-23 16:09:21 | INFO     | extract_measurements | Sensor 1545 | Page 1 | Records 1000
+2026-07-23 16:09:23 | INFO     | extract_measurements | Sensor 1545 | Page 2 | Records 1000
+2026-07-23 16:09:26 | INFO     | extract_measurements | Sensor 1545 | Page 3 | Records 1000
+2026-07-23 16:09:30 | INFO     | extract_measurements | Sensor 1545 | Page 4 | Records 1000
+2026-07-23 16:09:33 | INFO     | extract_measurements | Sensor 1545 | Page 5 | Records 1000
+2026-07-23 16:09:39 | INFO     | extract_measurements | Sensor 1545 | Page 6 | Records 1000
+2026-07-23 16:09:45 | INFO     | extract_measurements | Sensor 1545 | Page 7 | Records 1000
+2026-07-23 16:09:51 | INFO     | extract_measurements | Sensor 1545 | Page 8 | Records 1000
+2026-07-23 16:09:59 | INFO     | extract_measurements | Sensor 1545 | Page 9 | Records 1000
+2026-07-23 16:10:06 | INFO     | extract_measurements | Sensor 1545 | Page 10 | Records 1000
+2026-07-23 16:10:06 | WARNING  | extract_measurements | Sensor 1545 reached 10 pages.
+2026-07-23 16:10:06 | INFO     | extract_measurements | Sensor 88/100 | ID = 1546
+2026-07-23 16:10:08 | INFO     | extract_measurements | Sensor 1546 | Page 1 | Records 1000
+2026-07-23 16:10:10 | INFO     | extract_measurements | Sensor 1546 | Page 2 | Records 1000
+2026-07-23 16:10:13 | INFO     | extract_measurements | Sensor 1546 | Page 3 | Records 1000
+2026-07-23 16:10:18 | INFO     | extract_measurements | Sensor 1546 | Page 4 | Records 1000
+2026-07-23 16:10:23 | INFO     | extract_measurements | Sensor 1546 | Page 5 | Records 1000
+2026-07-23 16:10:28 | INFO     | extract_measurements | Sensor 1546 | Page 6 | Records 1000
+2026-07-23 16:10:34 | INFO     | extract_measurements | Sensor 1546 | Page 7 | Records 1000
+2026-07-23 16:10:41 | INFO     | extract_measurements | Sensor 1546 | Page 8 | Records 1000
+2026-07-23 16:10:49 | INFO     | extract_measurements | Sensor 1546 | Page 9 | Records 1000
+2026-07-23 16:10:56 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1546/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:10:56 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1546/measurements. Skipping this request.
+2026-07-23 16:10:56 | WARNING  | extract_measurements | Sensor 1546 : API returned None
+2026-07-23 16:10:56 | INFO     | extract_measurements | Sensor 89/100 | ID = 1667
+2026-07-23 16:10:59 | INFO     | extract_measurements | Sensor 1667 | Page 1 | Records 1000
+2026-07-23 16:11:01 | INFO     | extract_measurements | Sensor 1667 | Page 2 | Records 1000
+2026-07-23 16:11:04 | INFO     | extract_measurements | Sensor 1667 | Page 3 | Records 1000
+2026-07-23 16:11:06 | INFO     | extract_measurements | Sensor 1667 | Page 4 | Records 1000
+2026-07-23 16:11:11 | INFO     | extract_measurements | Sensor 1667 | Page 5 | Records 1000
+2026-07-23 16:11:17 | INFO     | extract_measurements | Sensor 1667 | Page 6 | Records 1000
+2026-07-23 16:11:21 | INFO     | extract_measurements | Sensor 1667 | Page 7 | Records 1000
+2026-07-23 16:11:26 | INFO     | extract_measurements | Sensor 1667 | Page 8 | Records 1000
+2026-07-23 16:11:32 | INFO     | extract_measurements | Sensor 1667 | Page 9 | Records 1000
+2026-07-23 16:11:38 | INFO     | extract_measurements | Sensor 1667 | Page 10 | Records 1000
+2026-07-23 16:11:38 | WARNING  | extract_measurements | Sensor 1667 reached 10 pages.
+2026-07-23 16:11:38 | INFO     | extract_measurements | Sensor 90/100 | ID = 1668
+2026-07-23 16:11:40 | INFO     | extract_measurements | Sensor 1668 | Page 1 | Records 1000
+2026-07-23 16:11:43 | INFO     | extract_measurements | Sensor 1668 | Page 2 | Records 1000
+2026-07-23 16:11:45 | INFO     | extract_measurements | Sensor 1668 | Page 3 | Records 1000
+2026-07-23 16:11:49 | INFO     | extract_measurements | Sensor 1668 | Page 4 | Records 1000
+2026-07-23 16:11:53 | INFO     | extract_measurements | Sensor 1668 | Page 5 | Records 1000
+2026-07-23 16:11:57 | INFO     | extract_measurements | Sensor 1668 | Page 6 | Records 1000
+2026-07-23 16:12:01 | INFO     | extract_measurements | Sensor 1668 | Page 7 | Records 1000
+2026-07-23 16:12:05 | INFO     | extract_measurements | Sensor 1668 | Page 8 | Records 1000
+2026-07-23 16:12:09 | INFO     | extract_measurements | Sensor 1668 | Page 9 | Records 1000
+2026-07-23 16:12:14 | INFO     | extract_measurements | Sensor 1668 | Page 10 | Records 1000
+2026-07-23 16:12:14 | WARNING  | extract_measurements | Sensor 1668 reached 10 pages.
+2026-07-23 16:12:14 | INFO     | extract_measurements | Sensor 91/100 | ID = 1669
+2026-07-23 16:12:43 | INFO     | extract_measurements | Sensor 1669 | Page 1 | Records 1000
+2026-07-23 16:12:46 | INFO     | extract_measurements | Sensor 1669 | Page 2 | Records 1000
+2026-07-23 16:12:49 | INFO     | extract_measurements | Sensor 1669 | Page 3 | Records 1000
+2026-07-23 16:12:52 | INFO     | extract_measurements | Sensor 1669 | Page 4 | Records 1000
+2026-07-23 16:12:55 | INFO     | extract_measurements | Sensor 1669 | Page 5 | Records 1000
+2026-07-23 16:12:58 | INFO     | extract_measurements | Sensor 1669 | Page 6 | Records 1000
+2026-07-23 16:13:02 | INFO     | extract_measurements | Sensor 1669 | Page 7 | Records 1000
+2026-07-23 16:13:07 | INFO     | extract_measurements | Sensor 1669 | Page 8 | Records 1000
+2026-07-23 16:13:12 | INFO     | extract_measurements | Sensor 1669 | Page 9 | Records 1000
+2026-07-23 16:13:18 | INFO     | extract_measurements | Sensor 1669 | Page 10 | Records 1000
+2026-07-23 16:13:18 | WARNING  | extract_measurements | Sensor 1669 reached 10 pages.
+2026-07-23 16:13:18 | INFO     | extract_measurements | Sensor 92/100 | ID = 1670
+2026-07-23 16:13:20 | INFO     | extract_measurements | Sensor 1670 | Page 1 | Records 1000
+2026-07-23 16:13:24 | INFO     | extract_measurements | Sensor 1670 | Page 2 | Records 1000
+2026-07-23 16:13:26 | INFO     | extract_measurements | Sensor 1670 | Page 3 | Records 1000
+2026-07-23 16:13:29 | INFO     | extract_measurements | Sensor 1670 | Page 4 | Records 1000
+2026-07-23 16:13:33 | INFO     | extract_measurements | Sensor 1670 | Page 5 | Records 1000
+2026-07-23 16:13:38 | INFO     | extract_measurements | Sensor 1670 | Page 6 | Records 1000
+2026-07-23 16:13:42 | INFO     | extract_measurements | Sensor 1670 | Page 7 | Records 1000
+2026-07-23 16:13:48 | INFO     | extract_measurements | Sensor 1670 | Page 8 | Records 1000
+2026-07-23 16:13:53 | INFO     | extract_measurements | Sensor 1670 | Page 9 | Records 1000
+2026-07-23 16:13:58 | INFO     | extract_measurements | Sensor 1670 | Page 10 | Records 1000
+2026-07-23 16:13:58 | WARNING  | extract_measurements | Sensor 1670 reached 10 pages.
+2026-07-23 16:13:58 | INFO     | extract_measurements | Sensor 93/100 | ID = 1780
+2026-07-23 16:14:01 | INFO     | extract_measurements | Sensor 1780 | Page 1 | Records 1000
+2026-07-23 16:14:06 | INFO     | extract_measurements | Sensor 1780 | Page 2 | Records 1000
+2026-07-23 16:14:13 | INFO     | extract_measurements | Sensor 1780 | Page 3 | Records 1000
+2026-07-23 16:14:21 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1780/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:14:21 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1780/measurements. Skipping this request.
+2026-07-23 16:14:21 | WARNING  | extract_measurements | Sensor 1780 : API returned None
+2026-07-23 16:14:21 | INFO     | extract_measurements | Sensor 94/100 | ID = 1782
+2026-07-23 16:14:24 | INFO     | extract_measurements | Sensor 1782 | Page 1 | Records 1000
+2026-07-23 16:14:29 | INFO     | extract_measurements | Sensor 1782 | Page 2 | Records 1000
+2026-07-23 16:14:35 | INFO     | extract_measurements | Sensor 1782 | Page 3 | Records 1000
+2026-07-23 16:14:43 | INFO     | extract_measurements | Sensor 1782 | Page 4 | Records 1000
+2026-07-23 16:14:49 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1782/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:14:49 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1782/measurements. Skipping this request.
+2026-07-23 16:14:49 | WARNING  | extract_measurements | Sensor 1782 : API returned None
+2026-07-23 16:14:49 | INFO     | extract_measurements | Sensor 95/100 | ID = 1785
+2026-07-23 16:14:53 | INFO     | extract_measurements | Sensor 1785 | Page 1 | Records 1000
+2026-07-23 16:14:57 | INFO     | extract_measurements | Sensor 1785 | Page 2 | Records 1000
+2026-07-23 16:15:04 | INFO     | extract_measurements | Sensor 1785 | Page 3 | Records 1000
+2026-07-23 16:15:12 | INFO     | extract_measurements | Sensor 1785 | Page 4 | Records 1000
+2026-07-23 16:15:18 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1785/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:15:18 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1785/measurements. Skipping this request.
+2026-07-23 16:15:18 | WARNING  | extract_measurements | Sensor 1785 : API returned None
+2026-07-23 16:15:18 | INFO     | extract_measurements | Sensor 96/100 | ID = 1786
+2026-07-23 16:15:21 | INFO     | extract_measurements | Sensor 1786 | Page 1 | Records 1000
+2026-07-23 16:15:24 | INFO     | extract_measurements | Sensor 1786 | Page 2 | Records 1000
+2026-07-23 16:15:30 | INFO     | extract_measurements | Sensor 1786 | Page 3 | Records 1000
+2026-07-23 16:15:37 | INFO     | extract_measurements | Sensor 1786 | Page 4 | Records 1000
+2026-07-23 16:15:45 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1786/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:15:45 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1786/measurements. Skipping this request.
+2026-07-23 16:15:45 | WARNING  | extract_measurements | Sensor 1786 : API returned None
+2026-07-23 16:15:45 | INFO     | extract_measurements | Sensor 97/100 | ID = 1787
+2026-07-23 16:15:49 | INFO     | extract_measurements | Sensor 1787 | Page 1 | Records 1000
+2026-07-23 16:15:55 | INFO     | extract_measurements | Sensor 1787 | Page 2 | Records 1000
+2026-07-23 16:16:02 | INFO     | extract_measurements | Sensor 1787 | Page 3 | Records 1000
+2026-07-23 16:16:08 | ERROR    | extract_measurements | Request failed [408] for https://api.openaq.org/v3/sensors/1787/measurements (attempt 1/5): {"detail":"Connection timed out: Try to provide more specific query parameters or a smaller time frame."}
+2026-07-23 16:16:08 | WARNING  | extract_measurements | 408 Timeout for https://api.openaq.org/v3/sensors/1787/measurements. Skipping this request.
+2026-07-23 16:16:08 | WARNING  | extract_measurements | Sensor 1787 : API returned None
+2026-07-23 16:16:08 | INFO     | extract_measurements | Sensor 98/100 | ID = 4298
+2026-07-23 16:16:11 | INFO     | extract_measurements | Sensor 4298 | Page 1 | Records 1000
+2026-07-23 16:16:12 | INFO     | extract_measurements | Sensor 4298 | Page 2 | Records 1000
+2026-07-23 16:16:15 | INFO     | extract_measurements | Sensor 4298 | Page 3 | Records 1000
+2026-07-23 16:16:19 | INFO     | extract_measurements | Sensor 4298 | Page 4 | Records 1000
+2026-07-23 16:16:23 | INFO     | extract_measurements | Sensor 4298 | Page 5 | Records 1000
+2026-07-23 16:16:27 | INFO     | extract_measurements | Sensor 4298 | Page 6 | Records 1000
+2026-07-23 16:16:30 | INFO     | extract_measurements | Sensor 4298 | Page 7 | Records 1000
+2026-07-23 16:16:35 | INFO     | extract_measurements | Sensor 4298 | Page 8 | Records 1000
+2026-07-23 16:16:40 | INFO     | extract_measurements | Sensor 4298 | Page 9 | Records 1000
+2026-07-23 16:16:45 | INFO     | extract_measurements | Sensor 4298 | Page 10 | Records 1000
+2026-07-23 16:16:45 | WARNING  | extract_measurements | Sensor 4298 reached 10 pages.
+2026-07-23 16:16:45 | INFO     | extract_measurements | Sensor 99/100 | ID = 4712
+2026-07-23 16:16:47 | INFO     | extract_measurements | Sensor 4712 | Page 1 | Records 1000
+2026-07-23 16:16:49 | INFO     | extract_measurements | Sensor 4712 | Page 2 | Records 1000
+2026-07-23 16:16:53 | INFO     | extract_measurements | Sensor 4712 | Page 3 | Records 1000
+2026-07-23 16:16:56 | INFO     | extract_measurements | Sensor 4712 | Page 4 | Records 1000
+2026-07-23 16:17:01 | INFO     | extract_measurements | Sensor 4712 | Page 5 | Records 1000
+2026-07-23 16:17:05 | INFO     | extract_measurements | Sensor 4712 | Page 6 | Records 1000
+2026-07-23 16:17:11 | INFO     | extract_measurements | Sensor 4712 | Page 7 | Records 1000
+2026-07-23 16:17:17 | INFO     | extract_measurements | Sensor 4712 | Page 8 | Records 1000
+2026-07-23 16:17:22 | INFO     | extract_measurements | Sensor 4712 | Page 9 | Records 1000
+2026-07-23 16:17:27 | INFO     | extract_measurements | Sensor 4712 | Page 10 | Records 1000
+2026-07-23 16:17:27 | WARNING  | extract_measurements | Sensor 4712 reached 10 pages.
+2026-07-23 16:17:27 | INFO     | extract_measurements | Sensor 100/100 | ID = 4720
+2026-07-23 16:17:30 | INFO     | extract_measurements | Sensor 4720 | Page 1 | Records 1000
+2026-07-23 16:17:31 | INFO     | extract_measurements | Sensor 4720 | Page 2 | Records 1000
+2026-07-23 16:17:34 | INFO     | extract_measurements | Sensor 4720 | Page 3 | Records 1000
+2026-07-23 16:17:38 | INFO     | extract_measurements | Sensor 4720 | Page 4 | Records 1000
+2026-07-23 16:17:43 | INFO     | extract_measurements | Sensor 4720 | Page 5 | Records 1000
+2026-07-23 16:17:47 | INFO     | extract_measurements | Sensor 4720 | Page 6 | Records 1000
+2026-07-23 16:17:50 | INFO     | extract_measurements | Sensor 4720 | Page 7 | Records 564
+2026-07-23 16:17:50 | INFO     | extract_measurements | Downloaded 748247 measurements.
+2026-07-23 16:17:50 | INFO     | extract_measurements | Saving measurements...
+2026-07-23 16:18:08 | INFO     | extract_measurements | CSV Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\measurements_raw.csv
+2026-07-23 16:18:08 | INFO     | extract_measurements | JSON Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\measurements_raw.json
+2026-07-23 16:18:08 | INFO     | extract_measurements | Total Records : 748247
+2026-07-23 16:18:08 | INFO     | extract_measurements | ============================================================
+2026-07-23 16:18:08 | INFO     | extract_measurements | Measurement Extraction Completed
+2026-07-23 16:18:08 | INFO     | extract_measurements | ============================================================

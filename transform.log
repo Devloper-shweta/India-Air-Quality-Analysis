@@ -1,0 +1,381 @@
+2026-07-22 14:07:48 | INFO     | transform | ============================================================
+2026-07-22 14:07:48 | INFO     | transform | Starting Transform Stage
+2026-07-22 14:07:48 | INFO     | transform | ============================================================
+2026-07-22 14:07:48 | INFO     | transform | Loading CSV files...
+2026-07-22 14:07:48 | ERROR    | transform | [Errno 2] No such file or directory: 'C:\\Users\\Sweta\\OneDrive\\Desktop\\SHWETA DATA\\Data Scientist resume\\master project\\India-Air-Quality-Analysis\\data\\raw\\sensors_raw.csv'
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 573, in main
+    locations, sensors, measurements = load_data()
+                                       ~~~~~~~~~^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 52, in load_data
+    sensors = pd.read_csv(SENSORS_CSV)
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Sweta\\OneDrive\\Desktop\\SHWETA DATA\\Data Scientist resume\\master project\\India-Air-Quality-Analysis\\data\\raw\\sensors_raw.csv'
+2026-07-22 14:17:48 | INFO     | transform | ============================================================
+2026-07-22 14:17:48 | INFO     | transform | Starting Transform Stage
+2026-07-22 14:17:48 | INFO     | transform | ============================================================
+2026-07-22 14:17:48 | INFO     | transform | Loading CSV files...
+2026-07-22 14:17:48 | INFO     | transform | Locations : 746 | Measurements : 67203
+2026-07-22 14:17:48 | INFO     | transform | Cleaning locations...
+2026-07-22 14:17:48 | INFO     | transform | Locations after cleaning : 746
+2026-07-22 14:17:48 | INFO     | transform | Cleaning measurements...
+2026-07-22 14:17:48 | INFO     | transform | Measurements after cleaning : 67073
+2026-07-22 14:17:48 | INFO     | transform | Mapping State...
+2026-07-22 14:17:49 | INFO     | transform | State Mapping Completed.
+2026-07-22 14:17:49 | INFO     | transform | Merging datasets...
+2026-07-22 14:17:49 | ERROR    | transform | 'location_id'
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 541, in main
+    merged_df = merge_data(
+        locations,
+        measurements
+    )
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 363, in merge_data
+    df = measurements.merge(
+        locations,
+        on="location_id",
+        how="left"
+    )
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\core\frame.py", line 12900, in merge
+    return merge(
+        self,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\core\reshape\merge.py", line 385, in merge
+    op = _MergeOperation(
+        left_df,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\core\reshape\merge.py", line 1018, in __init__
+    ) = self._get_merge_keys()
+        ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\core\reshape\merge.py", line 1633, in _get_merge_keys
+    left_keys.append(left._get_label_or_level_values(lk))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\pandas\core\generic.py", line 1776, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'location_id'
+2026-07-22 14:24:48 | INFO     | transform | ============================================================
+2026-07-22 14:24:48 | INFO     | transform | Starting Transform Stage
+2026-07-22 14:24:48 | INFO     | transform | ============================================================
+2026-07-22 14:24:48 | INFO     | transform | Loading CSV files...
+2026-07-22 14:24:48 | INFO     | transform | Locations : 746 | Measurements : 67203
+2026-07-22 14:24:48 | INFO     | transform | Cleaning Locations...
+2026-07-22 14:24:48 | INFO     | transform | Locations after cleaning : 746
+2026-07-22 14:24:48 | INFO     | transform | Cleaning Measurements...
+2026-07-22 14:24:49 | INFO     | transform | Measurements after cleaning : 67073
+2026-07-22 14:24:49 | INFO     | transform | Creating State Column...
+2026-07-22 14:24:49 | INFO     | transform | State Column Created.
+2026-07-22 14:24:49 | INFO     | transform | Building Sensor Mapping...
+2026-07-22 14:24:49 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-22 14:24:49 | INFO     | transform | Attaching Location IDs...
+2026-07-22 14:24:49 | INFO     | transform | Measurements after mapping : 67073
+2026-07-22 14:24:49 | INFO     | transform | Merging datasets...
+2026-07-22 14:24:49 | INFO     | transform | Merged Records : 67073
+2026-07-22 14:24:49 | INFO     | transform | Creating Features...
+2026-07-22 14:24:49 | INFO     | transform | Feature Engineering Completed.
+2026-07-22 14:24:49 | INFO     | transform | Preparing Final Dataset...
+2026-07-22 14:24:49 | INFO     | transform | Final Dataset Shape : (67073, 21)
+2026-07-22 14:24:49 | INFO     | transform | Saving Processed Dataset...
+2026-07-22 14:24:51 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-22 14:24:51 | INFO     | transform | ============================================================
+2026-07-22 14:24:51 | INFO     | transform | Transform Completed Successfully
+2026-07-22 14:24:51 | INFO     | transform | ============================================================
+2026-07-23 14:48:40 | INFO     | transform | ============================================================
+2026-07-23 14:48:40 | INFO     | transform | Starting Transform Stage
+2026-07-23 14:48:40 | INFO     | transform | ============================================================
+2026-07-23 14:48:40 | INFO     | transform | Loading CSV files...
+2026-07-23 14:48:40 | INFO     | transform | Locations : 746 | Measurements : 67203
+2026-07-23 14:48:40 | INFO     | transform | Cleaning Locations...
+2026-07-23 14:48:40 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 14:48:40 | INFO     | transform | Cleaning Measurements...
+2026-07-23 14:48:40 | INFO     | transform | Measurements after cleaning : 67073
+2026-07-23 14:48:40 | INFO     | transform | Creating State Column...
+2026-07-23 14:48:40 | INFO     | transform | State Column Created.
+2026-07-23 14:48:40 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 14:48:41 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 14:48:41 | INFO     | transform | Attaching Location IDs...
+2026-07-23 14:48:41 | INFO     | transform | Measurements after mapping : 67073
+2026-07-23 14:48:41 | INFO     | transform | Merging datasets...
+2026-07-23 14:48:41 | INFO     | transform | Merged Records : 67073
+2026-07-23 14:48:41 | INFO     | transform | Creating Features...
+2026-07-23 14:48:41 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 14:48:41 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 14:48:41 | INFO     | transform | Final Dataset Shape : (67073, 21)
+2026-07-23 14:48:41 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 14:48:43 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-23 14:48:43 | INFO     | transform | ============================================================
+2026-07-23 14:48:43 | INFO     | transform | Transform Completed Successfully
+2026-07-23 14:48:43 | INFO     | transform | ============================================================
+2026-07-23 16:23:56 | INFO     | transform | ============================================================
+2026-07-23 16:23:56 | INFO     | transform | Starting Transform Stage
+2026-07-23 16:23:56 | INFO     | transform | ============================================================
+2026-07-23 16:23:56 | INFO     | transform | Loading CSV files...
+2026-07-23 16:23:57 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 16:23:57 | INFO     | transform | Cleaning Locations...
+2026-07-23 16:23:57 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 16:23:57 | INFO     | transform | Cleaning Measurements...
+2026-07-23 16:23:58 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 16:23:58 | INFO     | transform | Creating State Column...
+2026-07-23 16:23:58 | INFO     | transform | State Column Created.
+2026-07-23 16:23:58 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 16:23:58 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 16:23:58 | INFO     | transform | Attaching Location IDs...
+2026-07-23 16:23:58 | INFO     | transform | Measurements after mapping : 743795
+2026-07-23 16:23:58 | INFO     | transform | Merging datasets...
+2026-07-23 16:23:58 | INFO     | transform | Merged Records : 743795
+2026-07-23 16:23:58 | INFO     | transform | Creating Features...
+2026-07-23 16:23:59 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 16:23:59 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 16:23:59 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-23 16:23:59 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 16:24:16 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-23 16:24:16 | INFO     | transform | ============================================================
+2026-07-23 16:24:16 | INFO     | transform | Transform Completed Successfully
+2026-07-23 16:24:16 | INFO     | transform | ============================================================
+2026-07-23 16:30:31 | INFO     | transform | ============================================================
+2026-07-23 16:30:31 | INFO     | transform | Starting Transform Stage
+2026-07-23 16:30:31 | INFO     | transform | ============================================================
+2026-07-23 16:30:31 | INFO     | transform | Loading CSV files...
+2026-07-23 16:30:32 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 16:30:32 | INFO     | transform | Cleaning Locations...
+2026-07-23 16:30:32 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 16:30:32 | INFO     | transform | Cleaning Measurements...
+2026-07-23 16:30:33 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 16:30:33 | INFO     | transform | Creating State Column...
+2026-07-23 16:30:33 | INFO     | transform | State Column Created.
+2026-07-23 16:30:33 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 16:30:33 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 16:30:33 | INFO     | transform | Attaching Location IDs...
+2026-07-23 16:30:33 | INFO     | transform | Measurements after mapping : 743795
+2026-07-23 16:30:33 | INFO     | transform | Merging datasets...
+2026-07-23 16:30:33 | INFO     | transform | Merged Records : 743795
+2026-07-23 16:30:33 | INFO     | transform | Creating Features...
+2026-07-23 16:30:34 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 16:30:34 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 16:30:34 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-23 16:30:34 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 16:30:50 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-23 16:30:50 | INFO     | transform | ============================================================
+2026-07-23 16:30:50 | INFO     | transform | Transform Completed Successfully
+2026-07-23 16:30:50 | INFO     | transform | ============================================================
+2026-07-23 16:40:23 | INFO     | transform | ============================================================
+2026-07-23 16:40:23 | INFO     | transform | Starting Transform Stage
+2026-07-23 16:40:23 | INFO     | transform | ============================================================
+2026-07-23 16:40:23 | INFO     | transform | Loading CSV files...
+2026-07-23 16:40:24 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 16:40:24 | INFO     | transform | Cleaning Locations...
+2026-07-23 16:40:24 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 16:40:24 | INFO     | transform | Cleaning Measurements...
+2026-07-23 16:40:25 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 16:40:25 | INFO     | transform | Creating State Column using Reverse Geocoding...
+2026-07-23 17:28:38 | INFO     | transform | ============================================================
+2026-07-23 17:28:38 | INFO     | transform | Starting Transform Stage
+2026-07-23 17:28:38 | INFO     | transform | ============================================================
+2026-07-23 17:28:38 | INFO     | transform | Loading CSV files...
+2026-07-23 17:28:39 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 17:28:39 | INFO     | transform | Cleaning Locations...
+2026-07-23 17:28:39 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 17:28:39 | INFO     | transform | Cleaning Measurements...
+2026-07-23 17:28:41 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 17:28:41 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 17:28:41 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 17:28:41 | INFO     | transform | Attaching Location IDs...
+2026-07-23 17:28:41 | INFO     | transform | Measurements after mapping : 743795
+2026-07-23 17:28:41 | INFO     | transform | Merging datasets...
+2026-07-23 17:28:41 | INFO     | transform | Merged Records : 743795
+2026-07-23 17:28:41 | INFO     | transform | Creating Features...
+2026-07-23 17:28:42 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 17:28:42 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 17:28:42 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-23 17:28:42 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 17:29:05 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-23 17:29:05 | INFO     | transform | ============================================================
+2026-07-23 17:29:05 | INFO     | transform | Transform Completed Successfully
+2026-07-23 17:29:05 | INFO     | transform | ============================================================
+2026-07-23 17:40:19 | INFO     | transform | ============================================================
+2026-07-23 17:40:19 | INFO     | transform | Starting Transform Stage
+2026-07-23 17:40:19 | INFO     | transform | ============================================================
+2026-07-23 17:40:19 | INFO     | transform | Loading CSV files...
+2026-07-23 17:40:20 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 17:40:20 | INFO     | transform | Cleaning Locations...
+2026-07-23 17:40:20 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 17:40:20 | INFO     | transform | Cleaning Measurements...
+2026-07-23 17:40:21 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 17:40:21 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 17:40:21 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 17:40:21 | INFO     | transform | Attaching Location IDs...
+2026-07-23 17:40:22 | INFO     | transform | Measurements after mapping : 743795
+2026-07-23 17:40:22 | INFO     | transform | Merging datasets...
+2026-07-23 17:40:22 | INFO     | transform | Merged Records : 743795
+2026-07-23 17:40:22 | INFO     | transform | Creating Features...
+2026-07-23 17:40:22 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 17:40:22 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 17:40:22 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-23 17:40:22 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 17:40:22 | ERROR    | transform | [Errno 13] Permission denied: 'C:\\Users\\Sweta\\OneDrive\\Desktop\\SHWETA DATA\\Data Scientist resume\\master project\\India-Air-Quality-Analysis\\data\\processed\\air_quality_cleaned.csv'
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 551, in main
+    save_dataset(final_df)
+    ~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\transform.py", line 501, in save_dataset
+    df.to_csv(
+    ~~~~~~~~~^
+        OUTPUT_CSV,
+        ^^^^^^^^^^^
+        index=False,
+        ^^^^^^^^^^^^
+        encoding="utf-8"
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\.venv\Lib\site-packages\pandas\core\generic.py", line 3976, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1025, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\.venv\Lib\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Sweta\\OneDrive\\Desktop\\SHWETA DATA\\Data Scientist resume\\master project\\India-Air-Quality-Analysis\\data\\processed\\air_quality_cleaned.csv'
+2026-07-23 17:42:36 | INFO     | transform | ============================================================
+2026-07-23 17:42:36 | INFO     | transform | Starting Transform Stage
+2026-07-23 17:42:36 | INFO     | transform | ============================================================
+2026-07-23 17:42:36 | INFO     | transform | Loading CSV files...
+2026-07-23 17:42:37 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-23 17:42:37 | INFO     | transform | Cleaning Locations...
+2026-07-23 17:42:37 | INFO     | transform | Locations after cleaning : 746
+2026-07-23 17:42:37 | INFO     | transform | Cleaning Measurements...
+2026-07-23 17:42:39 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-23 17:42:39 | INFO     | transform | Building Sensor Mapping...
+2026-07-23 17:42:39 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-23 17:42:39 | INFO     | transform | Attaching Location IDs...
+2026-07-23 17:42:39 | INFO     | transform | Measurements after mapping : 743795
+2026-07-23 17:42:39 | INFO     | transform | Merging datasets...
+2026-07-23 17:42:39 | INFO     | transform | Merged Records : 743795
+2026-07-23 17:42:39 | INFO     | transform | Creating Features...
+2026-07-23 17:42:40 | INFO     | transform | Feature Engineering Completed.
+2026-07-23 17:42:40 | INFO     | transform | Preparing Final Dataset...
+2026-07-23 17:42:40 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-23 17:42:40 | INFO     | transform | Saving Processed Dataset...
+2026-07-23 17:43:04 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-23 17:43:04 | INFO     | transform | ============================================================
+2026-07-23 17:43:04 | INFO     | transform | Transform Completed Successfully
+2026-07-23 17:43:04 | INFO     | transform | ============================================================
+2026-07-24 12:50:17 | INFO     | transform | ============================================================
+2026-07-24 12:50:17 | INFO     | transform | Starting Transform Stage
+2026-07-24 12:50:17 | INFO     | transform | ============================================================
+2026-07-24 12:50:17 | INFO     | transform | Loading CSV files...
+2026-07-24 12:50:18 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-24 12:50:18 | INFO     | transform | Cleaning Locations...
+2026-07-24 12:50:18 | INFO     | transform | Locations after cleaning : 746
+2026-07-24 12:50:18 | INFO     | transform | Cleaning Measurements...
+2026-07-24 12:50:20 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-24 12:50:20 | INFO     | transform | Building Sensor Mapping...
+2026-07-24 12:50:20 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-24 12:50:20 | INFO     | transform | Attaching Location IDs...
+2026-07-24 12:50:20 | INFO     | transform | Measurements after mapping : 743795
+2026-07-24 12:50:20 | INFO     | transform | Merging datasets...
+2026-07-24 12:50:20 | INFO     | transform | Merged Records : 743795
+2026-07-24 12:50:20 | INFO     | transform | Creating Features...
+2026-07-24 12:50:21 | INFO     | transform | Feature Engineering Completed.
+2026-07-24 12:50:21 | INFO     | transform | Preparing Final Dataset...
+2026-07-24 12:50:21 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-24 12:50:21 | INFO     | transform | Saving Processed Dataset...
+2026-07-24 12:50:44 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-24 12:50:44 | INFO     | transform | ============================================================
+2026-07-24 12:50:44 | INFO     | transform | Transform Completed Successfully
+2026-07-24 12:50:44 | INFO     | transform | ============================================================
+2026-07-24 13:56:33 | INFO     | transform | ============================================================
+2026-07-24 13:56:33 | INFO     | transform | Starting Transform Stage
+2026-07-24 13:56:33 | INFO     | transform | ============================================================
+2026-07-24 13:56:33 | INFO     | transform | Loading CSV files...
+2026-07-24 13:56:34 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-24 13:56:34 | INFO     | transform | Cleaning Locations...
+2026-07-24 13:56:34 | INFO     | transform | Locations after cleaning : 746
+2026-07-24 13:56:34 | INFO     | transform | Cleaning Measurements...
+2026-07-24 13:56:37 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-24 13:56:37 | INFO     | transform | Building Sensor Mapping...
+2026-07-24 13:56:38 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-24 13:56:38 | INFO     | transform | Attaching Location IDs...
+2026-07-24 13:56:38 | INFO     | transform | Measurements after mapping : 743795
+2026-07-24 13:56:38 | INFO     | transform | Merging datasets...
+2026-07-24 13:56:38 | INFO     | transform | Merged Records : 743795
+2026-07-24 13:56:38 | INFO     | transform | Creating Features...
+2026-07-24 13:56:39 | INFO     | transform | Feature Engineering Completed.
+2026-07-24 13:56:39 | INFO     | transform | Preparing Final Dataset...
+2026-07-24 13:56:39 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-24 13:56:39 | INFO     | transform | Saving Processed Dataset...
+2026-07-24 13:57:16 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-24 13:57:16 | INFO     | transform | ============================================================
+2026-07-24 13:57:16 | INFO     | transform | Transform Completed Successfully
+2026-07-24 13:57:16 | INFO     | transform | ============================================================
+2026-07-24 14:12:59 | INFO     | transform | ============================================================
+2026-07-24 14:12:59 | INFO     | transform | Starting Transform Stage
+2026-07-24 14:12:59 | INFO     | transform | ============================================================
+2026-07-24 14:12:59 | INFO     | transform | Loading CSV files...
+2026-07-24 14:12:59 | INFO     | transform | Locations : 746 | Measurements : 748247
+2026-07-24 14:12:59 | INFO     | transform | Cleaning Locations...
+2026-07-24 14:12:59 | INFO     | transform | Locations after cleaning : 746
+2026-07-24 14:12:59 | INFO     | transform | Cleaning Measurements...
+2026-07-24 14:13:01 | INFO     | transform | Measurements after cleaning : 743795
+2026-07-24 14:13:01 | INFO     | transform | Building Sensor Mapping...
+2026-07-24 14:13:01 | INFO     | transform | Sensor Mapping Created : 9458 rows
+2026-07-24 14:13:01 | INFO     | transform | Attaching Location IDs...
+2026-07-24 14:13:01 | INFO     | transform | Measurements after mapping : 743795
+2026-07-24 14:13:01 | INFO     | transform | Merging datasets...
+2026-07-24 14:13:01 | INFO     | transform | Merged Records : 743795
+2026-07-24 14:13:01 | INFO     | transform | Creating Features...
+2026-07-24 14:13:01 | INFO     | transform | Feature Engineering Completed.
+2026-07-24 14:13:01 | INFO     | transform | Preparing Final Dataset...
+2026-07-24 14:13:01 | INFO     | transform | Final Dataset Shape : (743795, 21)
+2026-07-24 14:13:01 | INFO     | transform | Saving Processed Dataset...
+2026-07-24 14:13:18 | INFO     | transform | Saved : C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\processed\air_quality_cleaned.csv
+2026-07-24 14:13:18 | INFO     | transform | ============================================================
+2026-07-24 14:13:18 | INFO     | transform | Transform Completed Successfully
+2026-07-24 14:13:18 | INFO     | transform | ============================================================

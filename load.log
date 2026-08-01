@@ -1,0 +1,466 @@
+2026-07-22 14:42:09 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 14:42:09 | INFO     | load | Connected Successfully.
+2026-07-22 14:42:09 | INFO     | load | Creating table if not exists...
+2026-07-22 14:42:09 | INFO     | load | Table Ready.
+2026-07-22 14:42:09 | INFO     | load | ============================================================
+2026-07-22 14:42:09 | INFO     | load | Starting Load Stage
+2026-07-22 14:42:09 | INFO     | load | ============================================================
+2026-07-22 14:42:09 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 14:42:09 | INFO     | load | Connected Successfully.
+2026-07-22 14:42:09 | INFO     | load | Creating table if not exists...
+2026-07-22 14:42:09 | INFO     | load | Table Ready.
+2026-07-22 14:42:09 | INFO     | load | Loading Processed CSV...
+2026-07-22 14:42:09 | INFO     | load | Records Found : 67073
+2026-07-22 14:42:10 | INFO     | load | CSV Loaded Successfully.
+2026-07-22 14:42:10 | INFO     | load | Preparing Records...
+2026-07-22 14:42:10 | INFO     | load | Inserting 67073 records...
+2026-07-22 14:42:11 | ERROR    | load | INSERT has more expressions than target columns
+LINE 27: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 218, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 181, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: INSERT has more expressions than target columns
+LINE 27: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+
+2026-07-22 14:42:11 | INFO     | load | Database Connection Closed.
+2026-07-22 14:52:48 | INFO     | load | ============================================================
+2026-07-22 14:52:48 | INFO     | load | Starting Load Stage
+2026-07-22 14:52:48 | INFO     | load | ============================================================
+2026-07-22 14:52:48 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 14:52:48 | INFO     | load | Connected Successfully.
+2026-07-22 14:52:48 | INFO     | load | Creating table if not exists...
+2026-07-22 14:52:48 | INFO     | load | Table Ready.
+2026-07-22 14:52:48 | INFO     | load | Loading Processed CSV...
+2026-07-22 14:52:48 | INFO     | load | Records Found : 67073
+2026-07-22 14:52:49 | INFO     | load | CSV Loaded Successfully.
+2026-07-22 14:52:49 | INFO     | load | Preparing Records...
+2026-07-22 14:52:49 | INFO     | load | Inserting 67073 records...
+2026-07-22 14:52:50 | ERROR    | load | column "month_name" of relation "air_quality_openaq" does not exist
+LINE 20:         month_name,
+                 ^
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 219, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 183, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "month_name" of relation "air_quality_openaq" does not exist
+LINE 20:         month_name,
+                 ^
+
+2026-07-22 14:52:50 | INFO     | load | Database Connection Closed.
+2026-07-22 14:54:08 | INFO     | load | ============================================================
+2026-07-22 14:54:08 | INFO     | load | Starting Load Stage
+2026-07-22 14:54:08 | INFO     | load | ============================================================
+2026-07-22 14:54:08 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 14:54:08 | ERROR    | load | connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "air_quality_db" does not exist
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 210, in main
+    conn = connect_db()
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 24, in connect_db
+    conn = psycopg2.connect(
+    
+    ...<5 lines>...
+    
+    )
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "air_quality_db" does not exist
+
+2026-07-22 14:57:09 | INFO     | load | ============================================================
+2026-07-22 14:57:09 | INFO     | load | Starting Load Stage
+2026-07-22 14:57:09 | INFO     | load | ============================================================
+2026-07-22 14:57:09 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 14:57:09 | INFO     | load | Connected Successfully.
+2026-07-22 14:57:09 | INFO     | load | Creating table if not exists...
+2026-07-22 14:57:09 | INFO     | load | Table Ready.
+2026-07-22 14:57:09 | INFO     | load | Loading Processed CSV...
+2026-07-22 14:57:09 | INFO     | load | Records Found : 67073
+2026-07-22 14:57:10 | INFO     | load | CSV Loaded Successfully.
+2026-07-22 14:57:10 | INFO     | load | Preparing Records...
+2026-07-22 14:57:10 | INFO     | load | Inserting 67073 records...
+2026-07-22 14:57:11 | ERROR    | load | column "is_weekend" is of type boolean but expression is of type integer
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 219, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 183, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "is_weekend" is of type boolean but expression is of type integer
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2026-07-22 14:57:11 | INFO     | load | Database Connection Closed.
+2026-07-22 15:00:13 | INFO     | load | ============================================================
+2026-07-22 15:00:13 | INFO     | load | Starting Load Stage
+2026-07-22 15:00:13 | INFO     | load | ============================================================
+2026-07-22 15:00:13 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 15:00:13 | INFO     | load | Connected Successfully.
+2026-07-22 15:00:13 | INFO     | load | Creating table if not exists...
+2026-07-22 15:00:13 | INFO     | load | Table Ready.
+2026-07-22 15:00:13 | INFO     | load | Loading Processed CSV...
+2026-07-22 15:00:13 | INFO     | load | Records Found : 67073
+2026-07-22 15:00:14 | INFO     | load | CSV Loaded Successfully.
+2026-07-22 15:00:14 | INFO     | load | Preparing Records...
+2026-07-22 15:00:14 | INFO     | load | Inserting 67073 records...
+2026-07-22 15:00:14 | ERROR    | load | column "weekend" is of type integer but expression is of type boolean
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 219, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 183, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "is_weekend" is of type boolean but expression is of type integer
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2026-07-22 15:00:14 | INFO     | load | Database Connection Closed.
+2026-07-22 15:01:48 | INFO     | load | ============================================================
+2026-07-22 15:01:48 | INFO     | load | Starting Load Stage
+2026-07-22 15:01:48 | INFO     | load | ============================================================
+2026-07-22 15:01:48 | INFO     | load | Connecting PostgreSQL...
+2026-07-22 15:01:48 | INFO     | load | Connected Successfully.
+2026-07-22 15:01:48 | INFO     | load | Creating table if not exists...
+2026-07-22 15:01:48 | INFO     | load | Table Ready.
+2026-07-22 15:01:48 | INFO     | load | Loading Processed CSV...
+2026-07-22 15:01:48 | INFO     | load | Records Found : 67073
+2026-07-22 15:01:49 | INFO     | load | CSV Loaded Successfully.
+2026-07-22 15:01:49 | INFO     | load | Preparing Records...
+2026-07-22 15:01:49 | INFO     | load | Inserting 67073 records...
+2026-07-22 15:01:50 | ERROR    | load | column "is_weekend" is of type boolean but expression is of type integer
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 219, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 183, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\venv\Lib\site-packages\psycopg2\extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+psycopg2.errors.DatatypeMismatch: column "is_weekend" is of type boolean but expression is of type integer
+LINE 28: ...:30'::timestamptz,2016,2,'February',5,'Friday',20,0),(17,'R ...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2026-07-22 15:01:50 | INFO     | load | Database Connection Closed.
+2026-07-23 14:23:42 | INFO     | load | ============================================================
+2026-07-23 14:23:42 | INFO     | load | Starting Load Stage
+2026-07-23 14:23:42 | INFO     | load | ============================================================
+2026-07-23 14:23:42 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 14:23:42 | INFO     | load | Connected Successfully.
+2026-07-23 14:23:42 | INFO     | load | Creating table if not exists...
+2026-07-23 14:23:43 | INFO     | load | Table Ready.
+2026-07-23 14:23:43 | INFO     | load | Loading Processed CSV...
+2026-07-23 14:23:43 | INFO     | load | Records Found : 67073
+2026-07-23 14:23:44 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 14:23:44 | INFO     | load | Preparing Records...
+2026-07-23 14:23:45 | INFO     | load | Inserting 67073 records...
+2026-07-23 14:23:45 | ERROR    | load | can't adapt type 'numpy.bool'
+Traceback (most recent call last):
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 250, in main
+    insert_data(conn, df)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\scripts\load.py", line 212, in insert_data
+    execute_values(
+    ~~~~~~~~~~~~~~^
+        cursor,
+        ^^^^^^^
+    ...<2 lines>...
+        page_size=5000
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\.venv\Lib\site-packages\psycopg2\extras.py", line 1296, in execute_values
+    parts.append(cur.mogrify(template, args))
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+psycopg2.ProgrammingError: can't adapt type 'numpy.bool'
+2026-07-23 14:23:45 | INFO     | load | Database Connection Closed.
+2026-07-23 14:27:05 | INFO     | load | ============================================================
+2026-07-23 14:27:05 | INFO     | load | Starting Load Stage
+2026-07-23 14:27:05 | INFO     | load | ============================================================
+2026-07-23 14:27:05 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 14:27:05 | INFO     | load | Connected Successfully.
+2026-07-23 14:27:05 | INFO     | load | Creating table if not exists...
+2026-07-23 14:27:05 | INFO     | load | Table Ready.
+2026-07-23 14:27:05 | INFO     | load | Loading Processed CSV...
+2026-07-23 14:27:05 | INFO     | load | Records Found : 67073
+2026-07-23 14:27:06 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 14:27:06 | INFO     | load | Preparing Records...
+2026-07-23 14:27:06 | INFO     | load | Inserting 1 records...
+2026-07-23 14:27:06 | INFO     | load | Data Inserted Successfully.
+2026-07-23 14:27:06 | INFO     | load | ============================================================
+2026-07-23 14:27:06 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 14:27:06 | INFO     | load | ============================================================
+2026-07-23 14:27:06 | INFO     | load | Database Connection Closed.
+2026-07-23 14:30:23 | INFO     | load | ============================================================
+2026-07-23 14:30:23 | INFO     | load | Starting Load Stage
+2026-07-23 14:30:23 | INFO     | load | ============================================================
+2026-07-23 14:30:23 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 14:30:23 | INFO     | load | Connected Successfully.
+2026-07-23 14:30:23 | INFO     | load | Creating table if not exists...
+2026-07-23 14:30:23 | INFO     | load | Table Ready.
+2026-07-23 14:30:23 | INFO     | load | Loading Processed CSV...
+2026-07-23 14:30:23 | INFO     | load | Records Found : 67073
+2026-07-23 14:30:24 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 14:30:24 | INFO     | load | Preparing Records...
+2026-07-23 14:30:25 | INFO     | load | Inserting 67073 records...
+2026-07-23 14:30:31 | INFO     | load | Data Inserted Successfully.
+2026-07-23 14:30:31 | INFO     | load | ============================================================
+2026-07-23 14:30:31 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 14:30:31 | INFO     | load | ============================================================
+2026-07-23 14:30:31 | INFO     | load | Database Connection Closed.
+2026-07-23 14:49:04 | INFO     | load | ============================================================
+2026-07-23 14:49:04 | INFO     | load | Starting Load Stage
+2026-07-23 14:49:04 | INFO     | load | ============================================================
+2026-07-23 14:49:04 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 14:49:04 | INFO     | load | Connected Successfully.
+2026-07-23 14:49:04 | INFO     | load | Creating table if not exists...
+2026-07-23 14:49:04 | INFO     | load | Table Ready.
+2026-07-23 14:49:04 | INFO     | load | Loading Processed CSV...
+2026-07-23 14:49:05 | INFO     | load | Records Found : 67073
+2026-07-23 14:49:05 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 14:49:05 | INFO     | load | Preparing Records...
+2026-07-23 14:49:06 | INFO     | load | Inserting 67073 records...
+2026-07-23 14:49:12 | INFO     | load | Data Inserted Successfully.
+2026-07-23 14:49:12 | INFO     | load | ============================================================
+2026-07-23 14:49:12 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 14:49:12 | INFO     | load | ============================================================
+2026-07-23 14:49:12 | INFO     | load | Database Connection Closed.
+2026-07-23 14:51:16 | INFO     | load | ============================================================
+2026-07-23 14:51:16 | INFO     | load | Starting Load Stage
+2026-07-23 14:51:16 | INFO     | load | ============================================================
+2026-07-23 14:51:16 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 14:51:16 | INFO     | load | Connected Successfully.
+2026-07-23 14:51:16 | INFO     | load | Creating table if not exists...
+2026-07-23 14:51:16 | INFO     | load | Table Ready.
+2026-07-23 14:51:16 | INFO     | load | Loading Processed CSV...
+2026-07-23 14:51:17 | INFO     | load | Records Found : 67073
+2026-07-23 14:51:17 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 14:51:17 | INFO     | load | Preparing Records...
+2026-07-23 14:51:18 | INFO     | load | Inserting 67073 records...
+2026-07-23 14:51:24 | INFO     | load | Data Inserted Successfully.
+2026-07-23 14:51:24 | INFO     | load | ============================================================
+2026-07-23 14:51:24 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 14:51:24 | INFO     | load | ============================================================
+2026-07-23 14:51:24 | INFO     | load | Database Connection Closed.
+2026-07-23 16:24:39 | INFO     | load | ============================================================
+2026-07-23 16:24:39 | INFO     | load | Starting Load Stage
+2026-07-23 16:24:39 | INFO     | load | ============================================================
+2026-07-23 16:24:39 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 16:24:40 | INFO     | load | Connected Successfully.
+2026-07-23 16:24:40 | INFO     | load | Creating table if not exists...
+2026-07-23 16:24:40 | INFO     | load | Table Ready.
+2026-07-23 16:24:40 | INFO     | load | Loading Processed CSV...
+2026-07-23 16:24:42 | INFO     | load | Records Found : 743795
+2026-07-23 16:24:43 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 16:24:43 | INFO     | load | Preparing Records...
+2026-07-23 16:24:51 | INFO     | load | Inserting 743795 records...
+2026-07-23 16:25:52 | INFO     | load | Data Inserted Successfully.
+2026-07-23 16:25:53 | INFO     | load | ============================================================
+2026-07-23 16:25:53 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 16:25:53 | INFO     | load | ============================================================
+2026-07-23 16:25:53 | INFO     | load | Database Connection Closed.
+2026-07-23 16:30:55 | INFO     | load | ============================================================
+2026-07-23 16:30:55 | INFO     | load | Starting Load Stage
+2026-07-23 16:30:55 | INFO     | load | ============================================================
+2026-07-23 16:30:55 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 16:30:56 | INFO     | load | Connected Successfully.
+2026-07-23 16:30:56 | INFO     | load | Creating table if not exists...
+2026-07-23 16:30:56 | INFO     | load | Table Ready.
+2026-07-23 16:30:56 | INFO     | load | Loading Processed CSV...
+2026-07-23 16:30:58 | INFO     | load | Records Found : 743795
+2026-07-23 16:30:59 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 16:30:59 | INFO     | load | Preparing Records...
+2026-07-23 16:31:08 | INFO     | load | Inserting 743795 records...
+2026-07-23 16:32:16 | INFO     | load | Data Inserted Successfully.
+2026-07-23 16:32:16 | INFO     | load | ============================================================
+2026-07-23 16:32:16 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 16:32:16 | INFO     | load | ============================================================
+2026-07-23 16:32:16 | INFO     | load | Database Connection Closed.
+2026-07-23 16:35:20 | INFO     | load | ============================================================
+2026-07-23 16:35:20 | INFO     | load | Starting Load Stage
+2026-07-23 16:35:20 | INFO     | load | ============================================================
+2026-07-23 16:35:20 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 16:35:20 | INFO     | load | Connected Successfully.
+2026-07-23 16:35:20 | INFO     | load | Creating table if not exists...
+2026-07-23 16:35:20 | INFO     | load | Table Ready.
+2026-07-23 16:35:20 | INFO     | load | Loading Processed CSV...
+2026-07-23 16:35:22 | INFO     | load | Records Found : 743795
+2026-07-23 16:35:23 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 16:35:23 | INFO     | load | Preparing Records...
+2026-07-23 16:35:30 | INFO     | load | Inserting 743795 records...
+2026-07-23 16:36:32 | INFO     | load | Data Inserted Successfully.
+2026-07-23 16:36:32 | INFO     | load | ============================================================
+2026-07-23 16:36:32 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 16:36:32 | INFO     | load | ============================================================
+2026-07-23 16:36:32 | INFO     | load | Database Connection Closed.
+2026-07-23 17:29:36 | INFO     | load | ============================================================
+2026-07-23 17:29:36 | INFO     | load | Starting Load Stage
+2026-07-23 17:29:36 | INFO     | load | ============================================================
+2026-07-23 17:29:36 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 17:29:36 | INFO     | load | Connected Successfully.
+2026-07-23 17:29:36 | INFO     | load | Creating table if not exists...
+2026-07-23 17:29:36 | INFO     | load | Table Ready.
+2026-07-23 17:29:36 | INFO     | load | Loading Processed CSV...
+2026-07-23 17:29:39 | INFO     | load | Records Found : 743795
+2026-07-23 17:29:41 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 17:29:41 | INFO     | load | Preparing Records...
+2026-07-23 17:29:50 | INFO     | load | Inserting 743795 records...
+2026-07-23 17:30:56 | INFO     | load | Data Inserted Successfully.
+2026-07-23 17:30:56 | INFO     | load | ============================================================
+2026-07-23 17:30:56 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 17:30:56 | INFO     | load | ============================================================
+2026-07-23 17:30:56 | INFO     | load | Database Connection Closed.
+2026-07-23 17:31:29 | INFO     | load | ============================================================
+2026-07-23 17:31:29 | INFO     | load | Starting Load Stage
+2026-07-23 17:31:29 | INFO     | load | ============================================================
+2026-07-23 17:31:29 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 17:31:29 | INFO     | load | Connected Successfully.
+2026-07-23 17:31:29 | INFO     | load | Creating table if not exists...
+2026-07-23 17:31:29 | INFO     | load | Table Ready.
+2026-07-23 17:31:29 | INFO     | load | Loading Processed CSV...
+2026-07-23 17:31:32 | INFO     | load | Records Found : 743795
+2026-07-23 17:31:33 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 17:31:33 | INFO     | load | Preparing Records...
+2026-07-23 17:31:43 | INFO     | load | Inserting 743795 records...
+2026-07-23 17:32:48 | INFO     | load | Data Inserted Successfully.
+2026-07-23 17:32:48 | INFO     | load | ============================================================
+2026-07-23 17:32:48 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 17:32:48 | INFO     | load | ============================================================
+2026-07-23 17:32:48 | INFO     | load | Database Connection Closed.
+2026-07-23 17:43:12 | INFO     | load | ============================================================
+2026-07-23 17:43:12 | INFO     | load | Starting Load Stage
+2026-07-23 17:43:12 | INFO     | load | ============================================================
+2026-07-23 17:43:12 | INFO     | load | Connecting PostgreSQL...
+2026-07-23 17:43:12 | INFO     | load | Connected Successfully.
+2026-07-23 17:43:12 | INFO     | load | Creating table if not exists...
+2026-07-23 17:43:12 | INFO     | load | Table Ready.
+2026-07-23 17:43:12 | INFO     | load | Loading Processed CSV...
+2026-07-23 17:43:15 | INFO     | load | Records Found : 743795
+2026-07-23 17:43:17 | INFO     | load | CSV Loaded Successfully.
+2026-07-23 17:43:17 | INFO     | load | Preparing Records...
+2026-07-23 17:43:26 | INFO     | load | Inserting 743795 records...
+2026-07-23 17:44:31 | INFO     | load | Data Inserted Successfully.
+2026-07-23 17:44:31 | INFO     | load | ============================================================
+2026-07-23 17:44:31 | INFO     | load | Load Stage Completed Successfully
+2026-07-23 17:44:31 | INFO     | load | ============================================================
+2026-07-23 17:44:31 | INFO     | load | Database Connection Closed.
+2026-07-24 12:50:59 | INFO     | load | ============================================================
+2026-07-24 12:50:59 | INFO     | load | Starting Load Stage
+2026-07-24 12:50:59 | INFO     | load | ============================================================
+2026-07-24 12:50:59 | INFO     | load | Connecting PostgreSQL...
+2026-07-24 12:50:59 | INFO     | load | Connected Successfully.
+2026-07-24 12:50:59 | INFO     | load | Creating table if not exists...
+2026-07-24 12:50:59 | INFO     | load | Table Ready.
+2026-07-24 12:50:59 | INFO     | load | Loading Processed CSV...
+2026-07-24 12:51:02 | INFO     | load | Records Found : 743795
+2026-07-24 12:51:04 | INFO     | load | CSV Loaded Successfully.
+2026-07-24 12:51:04 | INFO     | load | Preparing Records...
+2026-07-24 12:51:14 | INFO     | load | Inserting 743795 records...
+2026-07-24 12:52:42 | INFO     | load | Data Inserted Successfully.
+2026-07-24 12:52:42 | INFO     | load | ============================================================
+2026-07-24 12:52:42 | INFO     | load | Load Stage Completed Successfully
+2026-07-24 12:52:42 | INFO     | load | ============================================================
+2026-07-24 12:52:42 | INFO     | load | Database Connection Closed.
+2026-07-24 13:57:24 | INFO     | load | ============================================================
+2026-07-24 13:57:24 | INFO     | load | Starting Load Stage
+2026-07-24 13:57:24 | INFO     | load | ============================================================
+2026-07-24 13:57:24 | INFO     | load | Connecting PostgreSQL...
+2026-07-24 13:57:24 | INFO     | load | Connected Successfully.
+2026-07-24 13:57:24 | INFO     | load | Creating table if not exists...
+2026-07-24 13:57:24 | INFO     | load | Table Ready.
+2026-07-24 13:57:24 | INFO     | load | Loading Processed CSV...
+2026-07-24 13:57:28 | INFO     | load | Records Found : 743795
+2026-07-24 13:57:30 | INFO     | load | CSV Loaded Successfully.
+2026-07-24 13:57:30 | INFO     | load | Preparing Records...
+2026-07-24 13:57:46 | INFO     | load | Inserting 743795 records...
+2026-07-24 13:59:42 | INFO     | load | Data Inserted Successfully.
+2026-07-24 13:59:42 | INFO     | load | ============================================================
+2026-07-24 13:59:42 | INFO     | load | Load Stage Completed Successfully
+2026-07-24 13:59:42 | INFO     | load | ============================================================
+2026-07-24 13:59:42 | INFO     | load | Database Connection Closed.
+2026-07-24 14:13:22 | INFO     | load | ============================================================
+2026-07-24 14:13:22 | INFO     | load | Starting Load Stage
+2026-07-24 14:13:22 | INFO     | load | ============================================================
+2026-07-24 14:13:22 | INFO     | load | Connecting PostgreSQL...
+2026-07-24 14:13:22 | INFO     | load | Connected Successfully.
+2026-07-24 14:13:22 | INFO     | load | Creating table if not exists...
+2026-07-24 14:13:23 | INFO     | load | Table Ready.
+2026-07-24 14:13:23 | INFO     | load | Loading Processed CSV...
+2026-07-24 14:13:25 | INFO     | load | Records Found : 743795
+2026-07-24 14:13:26 | INFO     | load | CSV Loaded Successfully.
+2026-07-24 14:13:26 | INFO     | load | Preparing Records...
+2026-07-24 14:13:34 | INFO     | load | Inserting 743795 records...
+2026-07-24 14:14:49 | INFO     | load | Data Inserted Successfully.
+2026-07-24 14:14:50 | INFO     | load | ============================================================
+2026-07-24 14:14:50 | INFO     | load | Load Stage Completed Successfully
+2026-07-24 14:14:50 | INFO     | load | ============================================================
+2026-07-24 14:14:50 | INFO     | load | Database Connection Closed.

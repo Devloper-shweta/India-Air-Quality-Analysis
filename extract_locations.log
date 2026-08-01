@@ -1,0 +1,11 @@
+2026-07-20 12:41:54 | INFO     | extract_locations | === Starting extract_locations.py ===
+2026-07-20 12:41:54 | ERROR    | extract_locations | OPENAQ_API_KEY is missing. Add it to your .env file before running the pipeline (see README.md for setup instructions).
+2026-07-20 12:41:54 | ERROR    | extract_locations | Configuration error: Missing OPENAQ_API_KEY in .env
+2026-07-20 12:43:26 | INFO     | extract_locations | === Starting extract_locations.py ===
+2026-07-20 12:43:26 | ERROR    | extract_locations | OPENAQ_API_KEY is missing. Add it to your .env file before running the pipeline (see README.md for setup instructions).
+2026-07-20 12:43:26 | ERROR    | extract_locations | Configuration error: Missing OPENAQ_API_KEY in .env
+2026-07-20 12:55:50 | INFO     | extract_locations | === Starting extract_locations.py ===
+2026-07-20 12:55:55 | INFO     | extract_locations | Reached final page (1). Total records: 746
+2026-07-20 12:55:55 | INFO     | extract_locations | Saved raw JSON -> C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\locations_raw.json
+2026-07-20 12:55:55 | INFO     | extract_locations | Saved raw CSV -> C:\Users\Sweta\OneDrive\Desktop\SHWETA DATA\Data Scientist resume\master project\India-Air-Quality-Analysis\data\raw\locations_raw.csv (746 rows)
+2026-07-20 12:55:55 | INFO     | extract_locations | === extract_locations.py completed successfully ===
